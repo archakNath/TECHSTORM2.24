@@ -6,12 +6,12 @@
     background-position: center;
     position: fixed;
     display: none;
-    transition: all .4s;
+    transition: all .5s;
 }
 
 main{
     height: 100vh;
     width: 100%;
     color: white;
-    background-color: #212121;
+    background-color: #313131;
 }
