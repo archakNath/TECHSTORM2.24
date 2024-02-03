@@ -1,4 +1,15 @@
-#lander-animation{
+.typing-text::after {
+    content: '|';
+    animation: blink-caret 0.75s infinite;
+}
+
+@keyframes blink-caret {
+    50% {
+        opacity: 0;
+    }
+}
+
+#lander-animation {
     height: 100vh;
     width: 100%;
     background-image: url(/assets/resource/gif/vikram_lander.gif);
@@ -7,9 +18,16 @@
     position: fixed;
     display: none;
     transition: all .5s;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Regista', sans-serif;
+    font-size: 70px;
+    text-shadow: 0 0 100px black;
+    text-align: center;
 }
 
-main{
+main {
     height: 100vh;
     width: 100%;
     color: white;

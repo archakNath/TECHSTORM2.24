@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'GoboldCuts';
+    src: local('GoboldCuts'), url('/assets/font/gobold_cuts.otf') format('opentype');
+}
+
+@font-face {
     font-family: 'MavisSansRegular';
     src: local('MavisSansRegular'), url('/assets/font/mavis.otf') format('opentype');
 }
