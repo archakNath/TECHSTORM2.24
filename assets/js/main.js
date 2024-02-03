@@ -5,7 +5,7 @@ setTimeout(() => {
     const typing_text = document.querySelector('.typing-text');
     const text = 'BHARAT on the Moon!';
     let new_text = '', counter = 0;
-    let typing_speed = (1400 / text.length);
+    let typing_speed = (1300 / text.length);
     
     const typingInterval = setInterval(() => {
         new_text += text.charAt(counter++);
