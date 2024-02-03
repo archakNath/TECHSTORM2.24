@@ -152,3 +152,9 @@ h1{
     font-family: 'Soliden-Regular';
     font-size: 18px;
 }
+
+@media(max-width:700px){
+    #loading-page p{
+        bottom: 100px;
+    }
+}
