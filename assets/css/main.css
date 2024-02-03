@@ -1,0 +1,17 @@
+#lander-animation{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/resource/gif/vikram_lander.gif);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    display: none;
+    transition: all .4s;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: #212121;
+}
