@@ -1,4 +1,4 @@
-# TECHSTORM 2.24 🚀
+# TECHSTORM 2.24 🧑‍🚀🚀
 
 ## Resources
 ### Websites(Inspiration)
