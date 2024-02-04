@@ -1,4 +1,6 @@
 const lander_animation = document.getElementById("lander-animation");
+const video = document.getElementById('video-background');
+
 setTimeout(() => {
     lander_animation.style.display = 'flex';
     // typing animation
@@ -35,7 +37,8 @@ setTimeout(() => {
             counter = 0;
             typing_speed = 1500 / text.length;
             typing_text.classList.add('remove-caret');
-            document.getElementById('video-background').style.opacity = '1';
+            video.style.opacity = '1';
+            video.play();
             typing_text.innerHTML = '';
             setInterval(() => {
                 typing_text.innerHTML = text.slice(0, counter).split('').map(
@@ -56,11 +59,30 @@ setTimeout(() => {
     }, 4000);
 }, 4000);
 
+function reverseVideo() {
+    // Pause the video when it finishes
+    video.pause();
+
+    // Set the playback rate to play the video in reverse
+    video.playbackRate = -1;
+
+    // Set the current time to the end of the video
+    video.currentTime = video.duration;
+
+    // Play the video in reverse
+    video.play();
+
+    // After a delay, reset the playback rate and play the video forward
+    setTimeout(function () {
+        video.playbackRate = 1;
+        video.play();
+    }, 5000); // Adjust the delay time (in milliseconds) as needed
+}
+
 const parallax = document.querySelector('.circle');
 const parallax_video = document.querySelector('#content');
 
-window.addEventListener("scroll", function()
-{
+window.addEventListener("scroll", function () {
     let offset = window.scrollY;
     parallax_video.style.marginBottom = offset * -1.5 + "px";
 })
