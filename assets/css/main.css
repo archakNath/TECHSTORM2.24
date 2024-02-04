@@ -12,7 +12,7 @@
 }
 
 #video-background {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -42,7 +42,7 @@ main {
     z-index: 998;
     font-family: 'Regista', sans-serif;
     font-size: 40px;
-    text-shadow: 0 0 10px #212121;
+    text-shadow: 0 0 10px black;
     text-align: center;
     padding: 20px;
     color: white;
@@ -109,8 +109,8 @@ main {
     left: 50%;
     font-size: .5em;
     transform-origin: 0 100px;
-    color: black;
-    text-shadow: 0 0 50px black;
+    color: white;
+    text-shadow: 0 0 30px black;
     font-weight: bolder;
 }
 
@@ -118,4 +118,11 @@ main {
     50% {
         opacity: 0;
     }
+}
+
+#content{
+    height: 100vh;
+    background-color: #070910;
+    font-weight: 100%;
+    z-index: 5;
 }

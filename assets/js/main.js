@@ -55,3 +55,12 @@ setTimeout(() => {
         }, 1000);
     }, 4000);
 }, 4000);
+
+const parallax = document.querySelector('.circle');
+const parallax_video = document.querySelector('#content');
+
+window.addEventListener("scroll", function()
+{
+    let offset = window.scrollY;
+    parallax_video.style.marginBottom = offset * -1.5 + "px";
+})
