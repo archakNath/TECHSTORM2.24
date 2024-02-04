@@ -11,6 +11,18 @@
     align-items: center;
 }
 
+header{
+    z-index: 996;
+    position: fixed;
+    padding: 8px 10px;
+    transform: translateY(-200px);
+    transition: all .5s;
+}
+
+header img{
+    width: 50px;
+}
+
 #video-background {
     position: absolute;
     top: 0;
@@ -39,7 +51,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 998;
+    z-index: 999;
     font-family: 'Regista', sans-serif;
     font-size: 40px;
     text-shadow: 0 0 10px black;
@@ -117,6 +129,37 @@ main {
 @keyframes blink-caret {
     50% {
         opacity: 0;
+    }
+}
+
+#down-arrow {
+    z-index: 1;
+    position: absolute;
+    bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    display: none;
+}
+
+#down-arrow img {
+    width: 40px;
+    animation: down_arrow_anim 2s infinite;
+}
+
+@keyframes down_arrow_anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }
 
