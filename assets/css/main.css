@@ -76,7 +76,7 @@ main {
     position: absolute;
     left: 50%;
     font-size: .5em;
-    transform-origin: 0 120px;
+    transform-origin: 0 100px;
 }
 
 @keyframes blink-caret {

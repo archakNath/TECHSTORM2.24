@@ -28,8 +28,8 @@ setTimeout(() => {
             typing_text.style.transform = 'none';
             typing_text.style.top = 'auto';
             typing_text.style.left = 'auto';
-            document.querySelector('.circle').style.height = '200px';
-            document.querySelector('.circle').style.width = '200px';
+            document.querySelector('.circle').style.height = '160px';
+            document.querySelector('.circle').style.width = '160px';
             // typing animation
             text = 'TECHSTORM 2k24 •BPPIMT •';
             counter = 0;
