@@ -45,7 +45,7 @@ setTimeout(() => {
                     clearInterval();
                 }
                 setTimeout(() => {
-                    document.querySelector('.text img').style.opacity = '1';
+                    document.querySelector('.circle img').style.opacity = '1';
                 }, 1500);
             }, typing_speed);
             new_text = '', counter = 0;
