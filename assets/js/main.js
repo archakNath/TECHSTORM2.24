@@ -36,8 +36,6 @@ setTimeout(() => {
             typing_speed = 1500 / text.length;
             typing_text.classList.add('remove-caret');
             document.getElementById('video-background').style.opacity = '1';
-            document.querySelector(".circle").style.boxShadow = '0 0 500px rgb(0, 0, 0)';
-            document.querySelector(".circle").style.background = 'rgba(0, 0, 0, 0.311)';
             typing_text.innerHTML = '';
             setInterval(() => {
                 typing_text.innerHTML = text.slice(0, counter).split('').map(
