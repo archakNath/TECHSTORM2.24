@@ -45,6 +45,8 @@ setTimeout(() => {
                     clearInterval();
                 }
                 setTimeout(() => {
+                    document.querySelector('.circle').style.animation = 'name_rotate 10s linear infinite';
+                    document.querySelector('.circle img').style.animation = 'image_rotate 10s linear infinite';
                     document.querySelector('.circle img').style.opacity = '1';
                 }, 1500);
             }, typing_speed);
