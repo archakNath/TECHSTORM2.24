@@ -105,16 +105,9 @@ main {
     }
 }
 
-/* @media(max-width:700px) {
-    .typing-text {
-        font-size: 30px;
-    }
+@media(max-width:700px) {
 
-    .text span {
-        transform-origin: 0 90px;
+    .circle img{
+        width: 70%;
     }
-
-    .circle img {
-        margin-top: -20px;
-    }
-} */
+}
