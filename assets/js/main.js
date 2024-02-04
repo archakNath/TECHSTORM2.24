@@ -74,8 +74,10 @@ window.addEventListener("scroll", function () {
     let offset = window.scrollY;
     if (offset > 350) {
         header.style.transform = 'translateY(0)';
+        down_arrow.style.opacity = '0';
     } else {
         header.style.transform = 'translateY(-200px)';
+        down_arrow.style.opacity = '1';
     }
 })
 

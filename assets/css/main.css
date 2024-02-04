@@ -142,6 +142,7 @@ main {
     gap: 5px;
     text-align: center;
     display: none;
+    transition: .2s all;
 }
 
 #down-arrow img {
