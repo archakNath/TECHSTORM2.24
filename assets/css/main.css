@@ -110,7 +110,7 @@ main {
     font-size: .5em;
     transform-origin: 0 100px;
     color: white;
-    text-shadow: 0 0 30px black;
+    text-shadow: 0 0 10px black;
     font-weight: bolder;
 }
 
@@ -120,7 +120,7 @@ main {
     }
 }
 
-#content{
+#content {
     height: 100vh;
     background-color: #070910;
     font-weight: 100%;

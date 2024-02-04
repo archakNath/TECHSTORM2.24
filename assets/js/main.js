@@ -31,11 +31,13 @@ setTimeout(() => {
             document.querySelector('.circle').style.height = '160px';
             document.querySelector('.circle').style.width = '160px';
             // typing animation
-            text = 'TECHSTORM 2k24 •BPPIMT •';
+            text = 'TECHSTORM 2.24 •BPPIMT• ';
             counter = 0;
             typing_speed = 1500 / text.length;
             typing_text.classList.add('remove-caret');
             document.getElementById('video-background').style.opacity = '1';
+            document.querySelector(".circle").style.boxShadow = '0 0 200px rgb(0, 0, 0)';
+            document.querySelector(".circle").style.background = 'rgba(0, 0, 0, 0.311)';
             typing_text.innerHTML = '';
             setInterval(() => {
                 typing_text.innerHTML = text.slice(0, counter).split('').map(
