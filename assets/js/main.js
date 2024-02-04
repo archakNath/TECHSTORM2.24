@@ -28,12 +28,25 @@ setTimeout(() => {
             typing_text.style.transform = 'none';
             typing_text.style.top = 'auto';
             typing_text.style.left = 'auto';
+            document.querySelector('.circle').style.height = '200px';
+            document.querySelector('.circle').style.width = '200px';
             // typing animation
-            text = 'TECHSTORM 2k24';
+            text = 'TECHSTORM 2k24 •BPPIMT •';
             counter = 0;
-            typing_speed = 2000 / text.length;
+            typing_speed = 1500 / text.length;
+            typing_text.classList.add('remove-caret');
+            typing_text.innerHTML = '';
             setInterval(() => {
-                typing_text.textContent = text.slice(0, counter++);
+                typing_text.innerHTML = text.slice(0, counter).split('').map(
+                    (char, i) => `<span style="transform:rotate(${i * 15}deg)">${char}</span>`
+                ).join('');
+                counter++;
+                if (counter === text.length) {
+                    clearInterval();
+                }
+                setTimeout(() => {
+                    document.querySelector('.text img').style.opacity = '1';
+                }, 1500);
             }, typing_speed);
             new_text = '', counter = 0;
         }, 1000);

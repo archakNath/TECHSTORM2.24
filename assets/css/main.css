@@ -1,28 +1,3 @@
-.typing-text {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 998;
-    font-family: 'Regista', sans-serif;
-    font-size: 40px;
-    text-shadow: 0 0 10px #212121;
-    text-align: center;
-    padding: 20px;
-    color: white;
-}
-
-.typing-text::after {
-    content: '|';
-    animation: blink-caret 0.75s infinite;
-}
-
-@keyframes blink-caret {
-    50% {
-        opacity: 0;
-    }
-}
-
 #lander-animation {
     height: 100vh;
     width: 100%;
@@ -45,4 +20,73 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.typing-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 998;
+    font-family: 'Regista', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 10px #212121;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.typing-text::after {
+    content: '|';
+    animation: blink-caret 0.75s infinite;
+}
+
+.remove-caret::after {
+    display: none;
+}
+
+.circle {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* animation: name_rotate 10s linear infinite; */
+}
+
+.text img {
+    width: 100%;
+    transform: scale(.8);
+    opacity: 0;
+    transition: all .8s;
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: .5em;
+    transform-origin: 0 120px;
+}
+
+@keyframes blink-caret {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media(max-width:700px) {
+    .typing-text {
+        font-size: 30px;
+    }
 }
