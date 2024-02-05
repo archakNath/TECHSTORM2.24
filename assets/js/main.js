@@ -73,7 +73,7 @@ window.addEventListener("scroll", function () {
     } else {
         down_arrow.style.opacity = '1';
     }
-    if(offset > 70){
+    if(offset > 150){
         circle.style.opacity = '0';
         
     } else {
