@@ -1,5 +1,5 @@
-html{
-    scroll-snap-type: y proximity;
+body {
+    background-color: black;
 }
 
 #lander-animation {
@@ -39,7 +39,6 @@ main {
     justify-content: center;
     align-items: center;
     /* z-index: 1; */
-    scroll-snap-align: start;
 }
 
 #video-background {
@@ -84,6 +83,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .2s;
 }
 
 .text {
@@ -171,25 +171,35 @@ main {
     }
 }
 
-@media(max-width:1650px){
-    #video-background{
+@media(max-width:1650px) {
+    #video-background {
         object-fit: cover;
     }
 }
 
 section {
-    height: 100vh;
-    background-color: black;
     font-weight: 100%;
-    scroll-snap-align: start;
     color: white;
 }
 
-#About{
+#transition {
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black, black);
+}
+
+#About {
     position: absolute;
     width: 100%;
 }
 
-#Categories{
-    margin-top: 100vh;
+#about-content {
+    background-color: black;
+    height: 100vh;
+}
+
+#Categories {
+    height: 100vh;
+    margin-top: 200vh;
+    background-color: black;
+    color: white;
 }

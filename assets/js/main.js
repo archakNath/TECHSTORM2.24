@@ -1,6 +1,7 @@
 const lander_animation = document.getElementById("lander-animation");
 const video = document.getElementById('video-background');
 const down_arrow = document.getElementById('down-arrow');
+const circle = document.querySelector('.circle');
 
 setTimeout(() => {
     lander_animation.style.display = 'flex';
@@ -61,13 +62,22 @@ setTimeout(() => {
 }, 4000);
 
 // logo parallax
-const parallax = document.querySelector('#video-background');
+const parallax = document.querySelector('main');
 
 window.addEventListener("scroll", function () {
     let offset = window.scrollY;
-    parallax.style.top = offset * .4 + "px";
-    if(offset > 350){
+    parallax.style.marginBottom = offset * -.5 + "px";
+    if(offset > 30){
         down_arrow.style.opacity = '0';
+        
+    } else {
+        down_arrow.style.opacity = '1';
+    }
+    if(offset > 70){
+        circle.style.opacity = '0';
+        
+    } else {
+        circle.style.opacity = '1';
     }
 })
 
