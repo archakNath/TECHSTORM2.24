@@ -100,18 +100,23 @@
     src: local('Soliden-Regular'), url('/assets/font/soliden_regular.ttf') format('truetype');
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Soliden-Expanded', sans-serif;
+    scroll-behavior: unset;
 }
 
-h1{
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
     font-family: 'Soliden-Bold', sans-serif;
 }
 
-#loading-page{
+#loading-page {
     background-color: #212121;
     position: fixed;
     height: 100vh;
@@ -152,7 +157,7 @@ h1{
     }
 }
 
-#loading-page p{
+#loading-page p {
     position: absolute;
     bottom: 20px;
     color: white;
@@ -160,8 +165,8 @@ h1{
     font-size: 18px;
 }
 
-@media(max-width:700px){
-    #loading-page p{
+@media(max-width:700px) {
+    #loading-page p {
         bottom: 100px;
     }
 }

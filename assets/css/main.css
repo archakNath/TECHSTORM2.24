@@ -1,3 +1,7 @@
+html{
+    scroll-snap-type: y proximity;
+}
+
 #lander-animation {
     height: 100vh;
     width: 100%;
@@ -15,7 +19,6 @@ header {
     z-index: 996;
     position: fixed;
     padding: 8px 10px;
-    transform: translateY(-200px);
     transition: all .5s;
     display: flex;
     align-items: center;
@@ -24,42 +27,6 @@ header {
 
 header img {
     width: 50px;
-}
-header #section-name {
-    color: white;
-    font-size: 18px;
-    font-family: 'Soliden-Expanded', sans-serif;
-}
-
-@keyframes section_text_appear {
-    0% {
-        margin-left: -120px;
-    }
-
-    100% {
-        margin-left: 0;
-    }
-}
-
-@keyframes section_text_disappear {
-    0% {
-        margin-left: 0;
-    }
-
-    100% {
-        margin-left: -120px;
-    }
-}
-
-#video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: all .2s;
 }
 
 main {
@@ -72,6 +39,18 @@ main {
     justify-content: center;
     align-items: center;
     /* z-index: 1; */
+    scroll-snap-align: start;
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: all .2s;
 }
 
 .typing-text {
@@ -192,8 +171,25 @@ main {
     }
 }
 
+@media(max-width:1650px){
+    #video-background{
+        object-fit: cover;
+    }
+}
+
 section {
     height: 100vh;
     background-color: black;
     font-weight: 100%;
+    scroll-snap-align: start;
+    color: white;
+}
+
+#About{
+    position: absolute;
+    width: 100%;
+}
+
+#Categories{
+    margin-top: 100vh;
 }
