@@ -127,5 +127,5 @@ for (var i = 0; i < 20; i++) {
 }
 tagline.innerHTML = repeatedHTML;
 window.addEventListener('scroll', () => {
-    tagline.style.transform = 'translateX(' + (window.scrollY * -.5) + 'px)';
+    tagline.style.transform = 'translateX(' + (window.scrollY * -.3) + 'px)';
 })
