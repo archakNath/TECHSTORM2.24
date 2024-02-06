@@ -73,6 +73,9 @@ window.addEventListener("scroll", function () {
     parallax.style.marginBottom = offset * -.5 + "px";
     if (offset > 30) {
         down_arrow.style.opacity = '0';
+        setTimeout(() => {
+            document.getElementById('#down-arrow').style.display = 'none';
+        }, 200);
 
     } else {
         down_arrow.style.opacity = '1';
