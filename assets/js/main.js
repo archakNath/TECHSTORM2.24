@@ -121,3 +121,14 @@ down_arrow.onclick = () => {
         behavior: 'smooth'
     });
 }
+
+// tagline movement
+const tagline = document.getElementById('transition');
+var repeatedHTML = '';
+for (var i = 0; i < 20; i++) {
+    repeatedHTML += '<p>SPACE AND BEYOND</p><p>•</p>';
+}
+tagline.innerHTML = repeatedHTML;
+window.addEventListener('scroll', () => {
+    tagline.style.transform = 'translateX('+(window.scrollY*-1)+'px)';
+})
