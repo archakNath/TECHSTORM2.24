@@ -73,9 +73,6 @@ window.addEventListener("scroll", function () {
     parallax.style.marginBottom = offset * -.5 + "px";
     if (offset > 30) {
         down_arrow.style.opacity = '0';
-        setTimeout(() => {
-            document.getElementById('#down-arrow').style.display = 'none';
-        }, 200);
 
     } else {
         down_arrow.style.opacity = '1';
@@ -117,7 +114,7 @@ function scrollToTop(position, behavior) {
 // Down arrow clicked
 down_arrow.onclick = () => {
     window.scrollTo({
-        top: window.innerHeight-160,
+        top: window.innerHeight - 160,
         behavior: 'smooth'
     });
 }
@@ -130,5 +127,5 @@ for (var i = 0; i < 20; i++) {
 }
 tagline.innerHTML = repeatedHTML;
 window.addEventListener('scroll', () => {
-    tagline.style.transform = 'translateX('+(window.scrollY*-1)+'px)';
+    tagline.style.transform = 'translateX(' + (window.scrollY * -.5) + 'px)';
 })
