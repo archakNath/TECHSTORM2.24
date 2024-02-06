@@ -196,7 +196,7 @@ section {
     gap: 15px;
 }
 
-#transition p{
+#transition p {
     font-family: 'Regista', sans-serif;
     flex: 0 0 auto;
 }
@@ -211,6 +211,13 @@ section {
 #about-content {
     background-color: black;
     height: 100vh;
+}
+
+@media(max-width:700px) {
+    #transition {
+        font-size: 40px;
+        height: 60px;
+    }
 }
 
 #Categories {
