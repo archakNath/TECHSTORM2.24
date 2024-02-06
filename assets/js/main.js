@@ -4,6 +4,8 @@ const down_arrow = document.getElementById('down-arrow');
 const circle = document.querySelector('.circle');
 
 setTimeout(() => {
+    // loading page terminated
+    scrollToTop();
     lander_animation.style.display = 'flex';
     // typing animation
     const typing_text = document.querySelector('.typing-text');
@@ -27,6 +29,7 @@ setTimeout(() => {
         lander_animation.style.opacity = '0';
         lander_animation.style.transform = 'scale(200%)';
         setTimeout(() => {
+            // landing animation is terminated
             lander_animation.style.display = 'none';
             typing_text.style.position = 'initial'
             typing_text.style.transform = 'none';
@@ -35,6 +38,7 @@ setTimeout(() => {
             document.querySelector('.circle').style.height = '160px';
             document.querySelector('.circle').style.width = '160px';
             down_arrow.style.display = 'flex';
+            document.getElementById('About').style.display = 'block';
             // typing animation
             text = 'TECHSTORM 2.24 •BPPIMT• ';
             counter = 0;
@@ -67,15 +71,14 @@ const parallax = document.querySelector('main');
 window.addEventListener("scroll", function () {
     let offset = window.scrollY;
     parallax.style.marginBottom = offset * -.5 + "px";
-    if(offset > 30){
+    if (offset > 30) {
         down_arrow.style.opacity = '0';
-        
+
     } else {
         down_arrow.style.opacity = '1';
     }
-    if(offset > 150){
+    if (offset > 150) {
         circle.style.opacity = '0';
-        
     } else {
         circle.style.opacity = '1';
     }
@@ -99,3 +102,19 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+// Scroll to top of the page
+function scrollToTop(position, behavior) {
+    window.scrollTo({
+        top: 0,
+        behavior: 'auto'
+    });
+}
+
+// Down arrow clicked
+down_arrow.onclick = () => {
+    window.scrollTo({
+        top: window.innerHeight-160,
+        behavior: 'smooth'
+    });
+}
