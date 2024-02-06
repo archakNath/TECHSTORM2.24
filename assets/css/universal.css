@@ -170,3 +170,34 @@ h1 {
         bottom: 100px;
     }
 }
+
+#scroll-to-top-btn{
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    animation: up_down 2s infinite;
+    display: none;
+    opacity: 0;
+    transition: all .2s;
+}
+
+#scroll-to-top-btn img{
+    width: 40px;
+}
+
+@keyframes up_down{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
