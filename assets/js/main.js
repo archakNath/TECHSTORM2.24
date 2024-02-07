@@ -114,7 +114,7 @@ function scrollToTop(position, behavior) {
 // Down arrow clicked
 down_arrow.onclick = () => {
     window.scrollTo({
-        top: window.innerHeight - 160,
+        top: window.innerHeight - 140,
         behavior: 'smooth'
     });
 }
@@ -126,6 +126,6 @@ for (var i = 0; i < 20; i++) {
     repeatedHTML += '<p>SPACE AND BEYOND</p><p>•</p>';
 }
 tagline.innerHTML = repeatedHTML;
-window.addEventListener('scroll', () => {
-    tagline.style.transform = 'translateX(' + (window.scrollY * -.3) + 'px)';
-})
+// window.addEventListener('scroll', () => {
+//     tagline.style.transform = 'translateX(' + (window.scrollY * -.3) + 'px)';
+// })

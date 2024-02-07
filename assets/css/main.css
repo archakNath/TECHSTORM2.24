@@ -193,6 +193,7 @@ section {
     overflow-x: auto;
     align-items: center;
     font-weight: bolder;
+    animation: linear transition_movement 20s infinite;
     gap: 15px;
     --s: 15px;
     /* control the size */
@@ -207,8 +208,17 @@ section {
     background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
 }
 
+@keyframes transition_movement{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -200vw;
+    }
+}
+
 #transition p {
-    font-family: 'Regista', sans-serif;
+    font-weight: bolder;
     flex: 0 0 auto;
 }
 
@@ -232,8 +242,13 @@ section {
 }
 
 #Categories {
-    height: 100vh;
+    height: 200vh;
     margin-top: 200vh;
     background-color: black;
     color: white;
+}
+
+#Categories h1{
+    position: sticky;
+    top: 70px;
 }
