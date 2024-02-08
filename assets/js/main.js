@@ -126,6 +126,13 @@ for (var i = 0; i < 20; i++) {
     repeatedHTML += '<p>SPACE AND BEYOND</p><p>•</p>';
 }
 tagline.innerHTML = repeatedHTML;
-// window.addEventListener('scroll', () => {
-//     tagline.style.transform = 'translateX(' + (window.scrollY * -.3) + 'px)';
-// })
+
+// gallery image resizing
+const gallery_section = document.getElementById('Gallery');
+window.addEventListener('scroll', () => {
+    const change_rate = 300000 / (window.scrollY - gallery_section.getBoundingClientRect().top);
+    gallery_section.style.backgroundSize = change_rate+'%';
+    if(window.scrollY < gallery_section.getBoundingClientRect().top && window.scrollY > gallery_section.getBoundingClientRect().bottom){
+    }
+})
+
