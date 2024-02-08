@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow: hidden;
 }
 
 #lander-animation {
@@ -46,14 +47,14 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit:scale-down;
+    object-fit: scale-down;
     opacity: 0;
     transition: all .2s;
 }
 
 .typing-text {
     position: fixed;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
@@ -74,7 +75,7 @@ main {
     display: none;
 }
 
-main .centre{
+main .centre {
     position: absolute;
 }
 
@@ -181,6 +182,271 @@ main .centre{
     }
 }
 
+.contactus {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    padding: 10px;
+}
+
+.contactus .container {
+    max-width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+}
+
+.contactus>.container>img {
+    width: 100%;
+    border-bottom-left-radius: 20px;
+}
+
+.contactus .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactus .socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* facebook */
+
+.facebook .Btn {
+    z-index: 2;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.facebook .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.facebook .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #1877f2;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.facebook .Btn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+}
+
+.facebook .Btn:hover .svgContainer {
+    border: 1px solid rgba(230, 230, 230, 0.466);
+    background-color: rgba(204, 204, 204, 0.466);
+    backdrop-filter: blur(4px);
+}
+
+/* linkedin  */
+.LinkedinBtn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.LinkedinBtn .svgContainer {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    letter-spacing: 1px;
+    /* Adjusted letter spacing */
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.LinkedinBtn .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #0077b5;
+    z-index: 1;
+    border-radius: 9px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.LinkedinBtn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Added box shadow effect */
+}
+
+.LinkedinBtn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+}
+
+.LinkedinBtn:hover .svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+}
+
+/* instagram */
+.instagram .Btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.instagram .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+    z-index: 2;
+}
+
+.instagram .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    z-index: 1;
+    border-radius: 9px;
+    pointer-events: none;
+    transition: all .3s;
+}
+
+.instagram .Btn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+}
+
+.instagram .Btn:hover .svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+}
+
+.cssbuttons-io-button {
+    background: #212121;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #313131;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #313131;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #212121;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
+
 section {
     font-weight: 100%;
     color: white;
@@ -211,11 +477,12 @@ section {
     background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
 }
 
-@keyframes transition_movement{
-    0%{
+@keyframes transition_movement {
+    0% {
         margin-left: 0;
     }
-    100%{
+
+    100% {
         margin-left: -200vw;
     }
 }
@@ -234,7 +501,7 @@ section {
     transform: translateY(0px);
 }
 
-#About h1{
+#About h1 {
     position: sticky;
     top: 70px;
 }
@@ -257,36 +524,37 @@ section {
     background-color: black;
     color: white;
     background-image: url(https://images.pexels.com/photos/5707688/pexels-photo-5707688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size:200%;
+    background-size: 200%;
     background-position: center;
 }
 
-#Gallery h1{
+#Gallery h1 {
     position: sticky;
     top: 70px;
     font-size: 150px;
 }
 
-@media(max-width:700px){
-    #Gallery{
+@media(max-width:700px) {
+    #Gallery {
         height: 80vh;
     }
-    
-    #Gallery h1{
+
+    #Gallery h1 {
         font-size: 100px;
     }
 }
-@media(max-width:400px){
-    #Gallery h1{
+
+@media(max-width:400px) {
+    #Gallery h1 {
         font-size: 70px;
     }
 }
 
-#Events{
+#Events {
     height: 100vh;
 }
 
-#Events h1{
+#Events h1 {
     position: sticky;
     top: 70px;
 }
