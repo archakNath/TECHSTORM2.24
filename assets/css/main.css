@@ -211,7 +211,7 @@ main .centre {
     border-bottom-left-radius: 20px;
 }
 
-.contactus .cross-btn{
+.contactus .cross-btn {
     width: 30px;
     position: absolute;
     top: 10px;
@@ -468,41 +468,6 @@ section {
     color: white;
 }
 
-#transition {
-    height: 70px;
-    font-size: 50px;
-    width: fit-content;
-    background-color: #313131;
-    display: flex;
-    font-display: row;
-    overflow-x: auto;
-    align-items: center;
-    font-weight: bolder;
-    animation: linear transition_movement 20s infinite;
-    gap: 15px;
-    --s: 15px;
-    /* control the size */
-
-    --c: #0000, rgb(14, 14, 14) 0.5deg 119.5deg, #0000 120deg;
-    --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
-    --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
-    --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
-    background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),
-        var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,
-        var(--g3) 0 calc(1.73 * var(--s)) #1e1e1e;
-    background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
-}
-
-@keyframes transition_movement {
-    0% {
-        margin-left: 0;
-    }
-
-    100% {
-        margin-left: -200vw;
-    }
-}
-
 #transition p {
     font-weight: bolder;
     flex: 0 0 auto;
@@ -521,24 +486,118 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: grayscale(1);
 }
 
-#About h1 {
-    position: sticky;
-    top: 70px;
+#About h1 {}
+
+#About .text-scroll-container {
+    overflow-x: hidden;
+    width: 120vw;
+    position: absolute;
+    z-index: -1;
+    background-color: yellow;
+    color: black;
+    transform: translateX(-100px);
+    margin-left: -50px;
+}
+
+#About .text-scroll-container:nth-child(1) {
+    top: 150px;
+    transform: rotate(5deg);
+}
+
+#About .text-scroll-container:nth-child(2) {
+    top: 210px;
+    transform: rotate(-20deg);
+}
+
+#About .text-scroller {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    font-size: 50px;
+    padding: 10px;
+    animation: transition_movement 30s linear infinite;
+}
+
+#About .text-scroller p {
+    flex: 0 0 auto;
+}
+
+
+@keyframes transition_movement {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -200vw;
+    }
 }
 
 #about-content {
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.806);
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
 }
 
-@media(max-width:700px) {
-    #transition {
-        font-size: 40px;
-        height: 60px;
+#About .card {
+    width: 100%;
+    max-width: 700px;
+    height: 354px;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+}
+
+#About .card-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#About .card:hover {
+    transform: scale(1.04) rotate(1deg);
+}
+
+#About .circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#060606, #191919);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+#About .circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+}
+
+#About .circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes move-down1 {
+    to {
+        transform: translateY(10px);
     }
 }
 

@@ -120,24 +120,26 @@ down_arrow.onclick = () => {
 }
 
 // tagline movement
-// const tagline = document.getElementById('transition');
-// var repeatedHTML = '';
-// for (var i = 0; i < 20; i++) {
-//     repeatedHTML += '<p>SPACE AND BEYOND</p><p>•</p>';
-// }
-// tagline.innerHTML = repeatedHTML;
+const tagline = document.querySelectorAll('.text-scroller');
+tagline.forEach(tag => {
+    var repeatedHTML = '';
+    for (var k = 0; k < 20; k++) {
+        repeatedHTML += '<p>SPACE AND BEYOND</p><p>•</p>';
+    }
+    tag.innerHTML = repeatedHTML;
+});
 
 // gallery image resizing
 const gallery_section = document.getElementById('Gallery');
 window.addEventListener('scroll', () => {
     var change_rate;
-    if(window.innerWidth < 700){
-        change_rate = 150 + (window.scrollY - gallery_section.offsetTop)*.05;
+    if (window.innerWidth < 700) {
+        change_rate = 150 + (window.scrollY - gallery_section.offsetTop) * .05;
     } else {
-        change_rate = 80 + (window.scrollY - gallery_section.offsetTop)*.02;
+        change_rate = 80 + (window.scrollY - gallery_section.offsetTop) * .02;
 
     }
-    gallery_section.style.backgroundSize = change_rate+'%';
+    gallery_section.style.backgroundSize = change_rate + '%';
 })
 
 // contact us
