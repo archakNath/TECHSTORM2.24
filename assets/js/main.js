@@ -130,9 +130,13 @@ tagline.innerHTML = repeatedHTML;
 // gallery image resizing
 const gallery_section = document.getElementById('Gallery');
 window.addEventListener('scroll', () => {
-    const change_rate = 300000 / (window.scrollY - gallery_section.getBoundingClientRect().top);
-    gallery_section.style.backgroundSize = change_rate+'%';
-    if(window.scrollY < gallery_section.getBoundingClientRect().top && window.scrollY > gallery_section.getBoundingClientRect().bottom){
+    var change_rate;
+    if(window.innerWidth < 700){
+        change_rate = 150 + (window.scrollY - gallery_section.offsetTop)*.05;
+    } else {
+        change_rate = 80 + (window.scrollY - gallery_section.offsetTop)*.02;
+
     }
+    gallery_section.style.backgroundSize = change_rate+'%';
 })
 

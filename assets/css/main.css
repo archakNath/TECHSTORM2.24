@@ -159,7 +159,6 @@ main .centre {
 #down-arrow img {
     width: 40px;
     animation: down_arrow_anim 2s infinite;
-    cursor: pointer;
 }
 
 @keyframes down_arrow_anim {
@@ -447,8 +446,8 @@ main .centre {
     transform: scale(0.95);
 }
 
-@media(max-width:700px){
-    .contactus{
+@media(max-width:700px) {
+    .contactus {
         font-size: 14px;
     }
 }
@@ -526,24 +525,55 @@ section {
 }
 
 #Gallery {
+    padding: 10px;
     height: 100vh;
+    max-height: 100vw;
     margin-top: 200vh;
     background-color: black;
     color: white;
-    background-image: url(https://images.pexels.com/photos/5707688/pexels-photo-5707688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: 200%;
+    background-image: url(/assets/resource/image/background/gallery_bg.png);
+    background-size: 100%;
     background-position: center;
+    position: relative;
+    transition: all .2s linear;
 }
 
 #Gallery h1 {
     position: sticky;
     top: 70px;
     font-size: 150px;
+    z-index: 1;
+    text-shadow: 0 0 50px black;
+    display: inline;
+}
+
+.cursor-link {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .4s;
+}
+
+.cursor-link:hover {
+    box-shadow: 0 0 100px rgba(255, 255, 255, 1);
+    width: 70px;
+    height: 70px;
+}
+
+.cursor-link img {
+    width: 100%;
 }
 
 @media(max-width:700px) {
     #Gallery {
-        height: 80vh;
+        background-size: 300%;
     }
 
     #Gallery h1 {
