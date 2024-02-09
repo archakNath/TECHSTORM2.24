@@ -40,6 +40,7 @@ main {
     justify-content: center;
     align-items: center;
     /* z-index: 1; */
+    scroll-snap-align: start;
 }
 
 #video-background {
@@ -486,6 +487,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    scroll-snap-align: start;
 }
 
 #About h1 {}
@@ -552,7 +554,6 @@ section {
     height: 354px;
     transition: all 0.2s;
     position: relative;
-    cursor: pointer;
 }
 
 #About .card-inner {
@@ -565,28 +566,24 @@ section {
     padding: 10px;
 }
 
-#About .card:hover {
-    transform: scale(1.04) rotate(1deg);
-}
-
 #About .circle {
-    width: 100px;
-    height: 100px;
-    background: radial-gradient(#060606, #191919);
-    border-radius: 50%;
+    width: 150px;
+    height: 150px;
     position: absolute;
     animation: move-up6 2s ease-in infinite alternate-reverse;
 }
 
 #About .circle:nth-child(1) {
-    top: -25px;
-    left: -25px;
+    top: -75px;
+    left: -85px;
 }
 
 #About .circle:nth-child(2) {
-    bottom: -25px;
-    right: -25px;
+    bottom: -50px;
+    right: -50px;
     animation-name: move-down1;
+    width: 120px;
+    height: 120px;
 }
 
 @keyframes move-up6 {
@@ -617,6 +614,7 @@ section {
     background-position: center;
     position: relative;
     transition: all .2s linear;
+    scroll-snap-align: start;
 }
 
 #Gallery h1 {
