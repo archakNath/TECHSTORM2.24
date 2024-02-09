@@ -547,6 +547,7 @@ section {
     justify-content: center;
     align-items: center;
     padding-inline: 20px;
+    overflow: hidden;
 }
 
 #About .card {
