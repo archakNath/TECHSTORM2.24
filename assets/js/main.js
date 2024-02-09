@@ -114,18 +114,18 @@ function scrollToTop(position, behavior) {
 // Down arrow clicked
 down_arrow.onclick = () => {
     window.scrollTo({
-        top: window.innerHeight - 140,
+        top: window.innerHeight - 180,
         behavior: 'smooth'
     });
 }
 
 // tagline movement
-const tagline = document.getElementById('transition');
-var repeatedHTML = '';
-for (var i = 0; i < 20; i++) {
-    repeatedHTML += '<p>SPACE AND BEYOND</p><p>•</p>';
-}
-tagline.innerHTML = repeatedHTML;
+// const tagline = document.getElementById('transition');
+// var repeatedHTML = '';
+// for (var i = 0; i < 20; i++) {
+//     repeatedHTML += '<p>SPACE AND BEYOND</p><p>•</p>';
+// }
+// tagline.innerHTML = repeatedHTML;
 
 // gallery image resizing
 const gallery_section = document.getElementById('Gallery');
@@ -140,3 +140,11 @@ window.addEventListener('scroll', () => {
     gallery_section.style.backgroundSize = change_rate+'%';
 })
 
+// contact us
+
+const contact_us = document.querySelector('.contactus');
+const contact_cancel_btn = document.querySelector('.contactus .cross-btn');
+contact_cancel_btn.onclick = () => {
+    contact_us.style.display = 'none';
+    document.querySelector('body').style.cursor = 'none';
+}

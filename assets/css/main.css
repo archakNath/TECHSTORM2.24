@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #lander-animation {
@@ -196,17 +196,27 @@ main .centre {
     backdrop-filter: blur(5px);
 }
 
+
 .contactus .container {
     max-width: 350px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 0 10px black;
+    position: relative;
 }
 
-.contactus>.container>img {
+.contactus .container .space-image {
     width: 100%;
     border-bottom-left-radius: 20px;
+}
+
+.contactus .cross-btn{
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }
 
 .contactus .content {
@@ -499,12 +509,19 @@ section {
 }
 
 #About {
-    /* position: absolute; */
     width: 100%;
     display: none;
     overflow-x: hidden;
     background-color: black;
     transform: translateY(0px);
+    position: sticky;
+    top: 0;
+    transition: all .2s;
+    background: url(/assets/resource/image/background/space-hand.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(1);
 }
 
 #About h1 {
@@ -513,8 +530,9 @@ section {
 }
 
 #about-content {
-    background-color: black;
     height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.806);
 }
 
 @media(max-width:700px) {
@@ -524,11 +542,15 @@ section {
     }
 }
 
+.section {
+    position: sticky;
+    top: 0;
+}
+
 #Gallery {
     padding: 10px;
     height: 100vh;
-    max-height: 100vw;
-    margin-top: 200vh;
+    /* margin-top: 100vh; */
     background-color: black;
     color: white;
     background-image: url(/assets/resource/image/background/gallery_bg.png);
@@ -589,9 +611,7 @@ section {
 
 #Events {
     height: 100vh;
-}
-
-#Events h1 {
+    background-color: black;
     position: sticky;
-    top: 70px;
+    top: 0;
 }

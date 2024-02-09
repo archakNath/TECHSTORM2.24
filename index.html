@@ -56,7 +56,7 @@
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
 
-    <main>
+    <main data-scroll-container>
         <video id="video-background" muted autoplay loop>
             <source src="/assets/resource/video/playback.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -78,7 +78,8 @@
 
     <div class="contactus">
         <div class="container">
-            <img src="/assets/resource/image/background/astronaut-in-ocean.png" alt="">
+            <img src="/assets/resource/image/icon/white-cross.svg" alt="" class="cross-btn">
+            <img src="/assets/resource/image/background/astronaut-in-ocean.png" alt="" class="space-image">
             <div class="content">
                 <h1>Coming soon!</h1>
                 <hr>
@@ -145,18 +146,20 @@
     </div>
 
     <section id="About">
-        <div id="transition">
-        </div>
+        <!-- <div id="transition">
+        </div> -->
         <div id="about-content">
             <h1>About</h1>
         </div>
     </section>
-    <section id="Gallery">
-        <h1>Gallery</h1>
-        <div class="cursor-link">
-            <img src="/assets/resource/image/icon/top-right-white-arrow.svg" alt="">
-        </div>
-    </section>
+    <div class="section">
+        <section id="Gallery">
+            <h1 class="reveal">Gallery</h1>
+            <div class="cursor-link reveal">
+                <img src="/assets/resource/image/icon/top-right-white-arrow.svg" alt="">
+            </div>
+        </section>
+    </div>
     <section id="Events">
         <h1>Events</h1>
     </section>
@@ -166,7 +169,7 @@
         <p>Launch <br> to top</p>
     </div>
 
-    <script src="/assets/js/universal.js"></script>
+    <script type="module" src="/assets/js/universal.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 
