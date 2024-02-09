@@ -71,7 +71,7 @@ const parallax = document.querySelector('main');
 window.addEventListener("scroll", function () {
     let offset = window.scrollY;
     parallax.style.marginBottom = offset * -.5 + "px";
-    if (offset > 30) {
+    if (offset >= 50) {
         down_arrow.style.opacity = '0';
 
     } else {

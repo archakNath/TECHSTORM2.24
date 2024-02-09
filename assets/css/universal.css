@@ -120,6 +120,18 @@ h1 {
     font-family: 'Soliden-Bold', sans-serif;
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
 #loading-page {
     background-color: #212121;
     position: fixed;

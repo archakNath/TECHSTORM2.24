@@ -155,6 +155,7 @@ main .centre {
     text-align: center;
     display: none;
     transition: .2s all;
+    transform: translateY(0);
 }
 
 #down-arrow img {
@@ -551,8 +552,6 @@ section {
 #About .card {
     width: 100%;
     max-width: 700px;
-    height: 354px;
-    transition: all 0.2s;
     position: relative;
 }
 
@@ -563,7 +562,37 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     border-radius: 8px;
+    padding: 20px;
+}
+
+#About .card-inner .logo{
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+#About .card-inner h1{
+    font-size: 4em;
+}
+
+#About .card-inner p:nth-child(5){
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#About .card-inner .info{
+    display: flex;
+    font-display: row;
+    gap: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+#About .card-inner .info-item{
+    background-color: white;
+    color: black;
     padding: 10px;
+    border-radius: 5px;
 }
 
 #About .circle {
@@ -595,6 +624,12 @@ section {
 @keyframes move-down1 {
     to {
         transform: translateY(10px);
+    }
+}
+
+@media(max-width:700px){
+    #About .card-inner h1{
+        font-size: 2em;
     }
 }
 
