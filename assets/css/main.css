@@ -501,7 +501,7 @@ section {
     background-color: yellow;
     color: black;
     transform: translateX(-100px);
-    margin-left: -50px;
+    margin-left: -90px;
 }
 
 #About .text-scroll-container:nth-child(1) {
@@ -653,6 +653,7 @@ section {
     position: relative;
     transition: all .2s linear;
     scroll-snap-align: start;
+    overflow: hidden;
 }
 
 #Gallery h1 {
@@ -665,24 +666,18 @@ section {
 }
 
 .cursor-link {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     padding: 5px;
     border-radius: 50%;
     background-color: black;
     box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     transition: all .4s;
     transform: translateX(0);
-}
-
-.cursor-link:hover {
-    box-shadow: 0 0 100px rgba(255, 255, 255, 1);
-    width: 70px;
-    height: 70px;
 }
 
 .cursor-link img {

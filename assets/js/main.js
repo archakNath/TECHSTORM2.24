@@ -84,25 +84,6 @@ window.addEventListener("scroll", function () {
     }
 })
 
-// reveal animation
-function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
-
-    for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 150;
-
-        if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-        } else {
-            reveals[i].classList.remove("active");
-        }
-    }
-}
-
-window.addEventListener("scroll", reveal);
-
 // Scroll to top of the page
 function scrollToTop(position, behavior) {
     window.scrollTo({
@@ -150,3 +131,18 @@ contact_cancel_btn.onclick = () => {
     contact_us.style.display = 'none';
     document.querySelector('body').style.cursor = 'none';
 }
+
+// cursor
+const arrowCursor = document.querySelector(".cursor-link");
+const cursorDot = document.querySelector(".cursor-dot");
+const cursorOutline = document.querySelector(".cursor-outline");
+
+window.addEventListener("mousemove", function (e) {
+    if (window.innerWidth > 700) {
+        const posX = e.clientX;
+        const posY = e.clientY;
+
+        arrowCursor.style.left = `${posX}px`;
+        arrowCursor.style.top = `${posY}px`;
+    }
+});
