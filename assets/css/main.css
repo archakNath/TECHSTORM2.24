@@ -478,7 +478,7 @@ section {
 #About {
     width: 100%;
     display: none;
-    overflow-x: hidden;
+    overflow: hidden;
     background-color: black;
     transform: translateY(0px);
     position: sticky;
@@ -495,7 +495,7 @@ section {
 
 #About .text-scroll-container {
     overflow-x: hidden;
-    width: 120vw;
+    width: 170vw;
     position: absolute;
     z-index: -1;
     background-color: yellow;
@@ -673,7 +673,7 @@ section {
     background-color: black;
     box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 30%;
     transform: translate(-50%, -50%);
     transition: all .4s;
