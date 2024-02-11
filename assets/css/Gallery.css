@@ -12,7 +12,6 @@ body, html {
     background-size: cover;
     background-position: center;
     margin: 0;
-    overflow: hidden;
     animation: slideBackground 10s linear infinite; /* Continuous horizontal movement animation */
 }
 
@@ -28,13 +27,20 @@ body, html {
 #image-track {
     display: flex;
     gap: 4vmin;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-#image-track > .image {
+.track-inside{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+#image-track  .image {
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
