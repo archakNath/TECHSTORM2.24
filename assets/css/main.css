@@ -778,15 +778,6 @@ section {
     #Events .arrow-part{
         display: none;
     }
-    #Events .indi-event h2{
-        font-size: 2em;
-    }
-    
-    #Events .indi-event p{
-        font-size: 1.2em;
-        margin-top: 5px;
-        font-weight: bold;
-    }
 }
 
 footer {
