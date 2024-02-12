@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-color: rgba(0, 0, 0, 0.966);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    animation: slideBackground 10s linear infinite; /* Continuous horizontal movement animation */
+}
+
+@keyframes slideBackground {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 100% center;
+    }
+}
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.track-inside{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+#image-track  .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% 50%;
+    border-radius: 20px; /* Increased border radius for a smoother look */
+    border: none; /* Remove default border */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Cool shadow effect for the dark theme */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    #image-track {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+    }
+
+    #image-track > .image {
+        width: 80%; /* Adjust image width for smaller screens */
+        height: auto; /* Let the height adjust automatically */
+        margin-bottom: 20px; /* Add some space between images */
+    }
+}
