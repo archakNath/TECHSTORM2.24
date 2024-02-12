@@ -129,7 +129,6 @@ const contact_us = document.querySelector('.contactus');
 const contact_cancel_btn = document.querySelector('.contactus .cross-btn');
 contact_cancel_btn.onclick = () => {
     contact_us.style.display = 'none';
-    document.querySelector('body').style.cursor = 'none';
 }
 
 // cursor
@@ -146,3 +145,16 @@ window.addEventListener("mousemove", function (e) {
         arrowCursor.style.top = `${posY}px`;
     }
 });
+
+// event scroll
+const eventList = document.querySelector('#Events .event-list');
+const leftArrow = document.querySelector('#Events #eventLeft');
+const rightArrow = document.querySelector('#Events #eventRight');
+
+leftArrow.onclick = () => {
+    eventList.scrollLeft = 0;
+}
+
+rightArrow.onclick = () => {
+    eventList.scrollLeft = eventList.scrollWidth - eventList.clientWidth;
+}

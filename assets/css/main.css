@@ -404,60 +404,6 @@ main .centre {
     background-color: rgba(156, 156, 156, 0.466);
 }
 
-.cssbuttons-io-button {
-    background: #212121;
-    color: white;
-    font-family: inherit;
-    padding: 0.35em;
-    padding-left: 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    border-radius: 0.9em;
-    border: none;
-    letter-spacing: 0.05em;
-    display: flex;
-    align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #313131;
-    overflow: hidden;
-    position: relative;
-    height: 2.8em;
-    padding-right: 3.3em;
-    cursor: pointer;
-}
-
-.cssbuttons-io-button .icon {
-    background: white;
-    margin-left: 1em;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.2em;
-    width: 2.2em;
-    border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #313131;
-    right: 0.3em;
-    transition: all 0.3s;
-}
-
-.cssbuttons-io-button:hover .icon {
-    width: calc(100% - 0.6em);
-}
-
-.cssbuttons-io-button .icon svg {
-    width: 1.1em;
-    transition: transform 0.3s;
-    color: #212121;
-}
-
-.cssbuttons-io-button:hover .icon svg {
-    transform: translateX(0.1em);
-}
-
-.cssbuttons-io-button:active .icon {
-    transform: scale(0.95);
-}
-
 @media(max-width:700px) {
     .contactus {
         font-size: 14px;
@@ -566,22 +512,22 @@ section {
     padding: 20px;
 }
 
-#About .card-inner .logo{
+#About .card-inner .logo {
     width: 60px;
     margin-bottom: 10px;
 }
 
-#About .card-inner h1{
+#About .card-inner h1 {
     font-size: 4em;
 }
 
-#About .card-inner p:nth-child(5){
+#About .card-inner p:nth-child(5) {
     margin-top: 10px;
     font-size: 12px;
     line-height: 15px;
 }
 
-#About .card-inner .info{
+#About .card-inner .info {
     display: flex;
     font-display: row;
     gap: 10px;
@@ -591,7 +537,7 @@ section {
     font-size: 1em;
 }
 
-#About .card-inner .info-item{
+#About .card-inner .info-item {
     background-color: white;
     color: black;
     padding: 6px 8px;
@@ -630,8 +576,8 @@ section {
     }
 }
 
-@media(max-width:700px){
-    #About .card-inner h1{
+@media(max-width:700px) {
+    #About .card-inner h1 {
         font-size: 2em;
     }
 }
@@ -643,7 +589,7 @@ section {
 
 #Gallery {
     padding: 10px;
-    height: 100vh;
+    height: 130vh;
     /* margin-top: 100vh; */
     background-color: black;
     color: white;
@@ -702,6 +648,116 @@ section {
 
 #Events {
     height: 100vh;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    background-color: #212121;
+    padding-inline: 10px;
+}
+
+#Events .arrow-part{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#Events .arrow-part img{
+    width: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#Events .arrow-part img.active{
+    background-color: white;
+}
+
+#Events .content {
+    padding-top: 70px;
+    max-width: 700px;
+    margin: auto;
+    height: 100%;
+    padding-inline: 10px;
+}
+
+#Events .content h1 {
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+}
+
+#Events .event-list{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+#Events .indi-event {
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    flex: 0 0 auto;
+    padding: 5px;
+}
+
+#Events .indi-event span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #212121;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+#Events .indi-event > img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#Events .indi-event .arrowLink {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    background-color: #212121;
+}
+
+#Events .indi-event p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+@media(max-width:700px){
+    #Events{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #Events .event-list{
+        overflow: auto;
+        flex-wrap: wrap;
+        overflow-y: hidden;
+        padding: 10px;
+    }
+
+    #Events .indi-event{
+        width: 100%;
+    }
+    #Events .arrow-part{
+        display: none;
+    }
+}
+
+footer {
+    color: white;
     background-color: black;
     position: sticky;
     top: 0;
