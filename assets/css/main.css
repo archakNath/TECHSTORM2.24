@@ -651,10 +651,17 @@ section {
     background-color: black;
     position: sticky;
     top: 0;
-    background-color: #212121;
-    padding-inline: 10px;
+    background: url(/assets/resource/image/background/astronaut-in-ocean.png);
+    background-position: center;
+    background-size: cover;
 }
-
+#Events::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #212121c6;
+    content: '';
+}
 #Events .arrow-part{
     display: flex;
     gap: 10px;
@@ -678,7 +685,7 @@ section {
     max-width: 700px;
     margin: auto;
     height: 100%;
-    padding-inline: 10px;
+    padding-inline: 20px;
 }
 
 #Events .content h1 {
@@ -728,6 +735,7 @@ section {
     top: 10px;
     right: 10px;
     width: 30px;
+    height: 30px;
     background-color: #212121;
 }
 
@@ -744,7 +752,7 @@ section {
 }
 
 #Events .indi-event p{
-    font-size: 12px;
+    font-size: .8em;
     margin-top: 5px;
     font-weight: bold;
 }
@@ -769,6 +777,15 @@ section {
     }
     #Events .arrow-part{
         display: none;
+    }
+    #Events .indi-event h2{
+        font-size: 2em;
+    }
+    
+    #Events .indi-event p{
+        font-size: 1.2em;
+        margin-top: 5px;
+        font-weight: bold;
     }
 }
 
