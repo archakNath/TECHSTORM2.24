@@ -718,7 +718,7 @@ section {
 
 #Events .indi-event > img{
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 3/4;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -731,9 +731,22 @@ section {
     background-color: #212121;
 }
 
+#Events .indi-event .text-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    color: #212121;
+    background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+    margin: 5px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
 #Events .indi-event p{
     font-size: 12px;
     margin-top: 5px;
+    font-weight: bold;
 }
 
 @media(max-width:700px){
@@ -750,6 +763,9 @@ section {
 
     #Events .indi-event{
         width: 100%;
+    }
+    #Events .indi-event > img{
+        aspect-ratio: 1;
     }
     #Events .arrow-part{
         display: none;
