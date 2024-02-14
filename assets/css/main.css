@@ -649,8 +649,9 @@ section {
 #Events {
     height: 100vh;
     background-color: black;
-    position: sticky;
-    top: 0;
+    transform: translate(0);
+    /* position: sticky;
+    top: 0; */
     background: url(/assets/resource/image/background/astronaut-in-ocean.png);
     background-position: center;
     background-size: cover;
@@ -686,6 +687,8 @@ section {
     margin: auto;
     height: 100%;
     padding-inline: 20px;
+    position: sticky;
+    top: 0;
 }
 
 #Events .content h1 {
@@ -781,8 +784,10 @@ section {
 }
 
 footer {
+    transform: translate(0);
     color: white;
     background-color: black;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
+    height: 50vh;
 }
