@@ -32,6 +32,9 @@ main {
     font-family: "Regista";
 }
 
+  #page1 #content h1{
+    font-size: 10vw;
+  }
 #page1 #content img {
     height: 100%;
     width: 100%;
