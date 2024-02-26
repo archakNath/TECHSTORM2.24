@@ -1,12 +1,23 @@
+// nav animation
+var tl = gsap.timeline();
+tl.from("nav #logo, nav #menu-btn", {
+    y: -50,
+    duration:.5,
+    opacity:0,
+    stagger:.5
+})
+
 // menu animation
 const menuBtnCancel = document.getElementById('menu-btn-cancel');
 const menuBtn = document.getElementById('menu-btn');
 menuBtnCancel.onclick = () => {
     gsap.to(".nav-list", {
         x: 800
-    })
+    });
+    
 }
 menuBtn.onclick = () => {
+    var navTL = gsap.timeline();
     gsap.to(".nav-list", {
         x: 0
     })

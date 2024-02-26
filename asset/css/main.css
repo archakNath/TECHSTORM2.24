@@ -1,10 +1,14 @@
+main {
+    overflow-x: hidden;
+}
+
 #page1 {
-    position: relative;
+    position: sticky;
     width: 100vw;
     height: 100vh;
-  }
+}
 
-  #page1 #background-video {
+#page1 #background-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -13,9 +17,9 @@
     object-fit: cover;
     object-position: center;
     z-index: -1;
-  }
+}
 
-  #page1 #content {
+#page1 #content {
     position: relative;
     z-index: 1;
     text-align: center;
@@ -26,10 +30,88 @@
     align-items: center;
     height: 100%;
     font-family: "Regista";
-  }
+}
 
-  #page1 #content img{
+#page1 #content img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-  }
+    position: fixed;
+}
+
+#page2 {
+    height: 100vh;
+    background-color: #212121;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: sticky;
+    padding-top: 100px;
+    padding-inline: 30px;
+    display: flex;
+    
+}
+
+#page2 #page2-left {
+    width: 70%;
+}
+
+#page2 #page2-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 #page2-right img{
+    width: 100%;
+    animation: hoverAnim 8s ease-in infinite;
+}
+
+
+#page2 h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.087);
+}
+
+@keyframes hoverAnim{
+    0%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(20px, 20px);
+    }
+    75%{
+        transform: translate(-20px, -20px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+
+@media(max-width: 700px){
+    #page2{
+        height: fit-content;
+        padding-bottom: 70px;
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+    #page2 #page2-left{
+        width: 100%;
+    }
+    #page2 #page2-left h1{
+        font-size: 30px;
+    }
+    #page2 #page2-right {
+        width: 100%;
+        padding: 40px;
+    }
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: crimson;
+    position: sticky;
+}

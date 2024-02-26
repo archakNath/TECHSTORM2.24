@@ -25,9 +25,9 @@ if (window.innerWidth > 700) {
     style: 1,
     y: 10,
     delay: 0.1,
-    duration: 2,
+    duration: .1,
     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    multiplier: 0.1,
+    multiplier: .1,
   });
 
   Shery.hoverWithMediaCircle(".hover-target" /* Element to target.*/, {
