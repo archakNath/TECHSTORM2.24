@@ -196,4 +196,16 @@ nav .nav-list-lower h1{
     .nav-list{
         width: 100%;
     }
+
+    nav #logo{
+        width: 40px;
+    }
+
+    nav #menu-btn{
+        width: 25px;
+    }
+
+    nav #menu-btn-cancel{
+        width: 40px;
+    }
 }
