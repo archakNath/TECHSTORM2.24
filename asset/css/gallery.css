@@ -69,7 +69,7 @@ section {
 .img:nth-of-type(5) {background-image: url('/asset/resource/image/gallery/img_5.jpg');}
 .img:nth-of-type(6) {background-image: url('/asset/resource/image/gallery/img_6.jpg');}
 .img:nth-of-type(7) {background-image: url('/asset/resource/image/gallery/img_7.jpg');}
-.img:nth-of-type(8) {background-image: url('//asset/resource/image/gallery/img_8.jpg');}
+.img:nth-of-type(8) {background-image: url('/asset/resource/image/gallery/img_8.jpg');}
 .img:nth-of-type(9) {background-image: url('/asset/resource/image/gallery/img_9.jpg');}
 
 .img:before {
