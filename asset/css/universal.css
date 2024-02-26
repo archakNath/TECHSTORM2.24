@@ -129,9 +129,12 @@ nav #logo{
 }
 
 nav #menu-btn{
-    width: 40px;
+    width: 60px;
     margin-right: 20px;
     cursor: pointer;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 nav #menu-btn-cancel{
@@ -203,7 +206,7 @@ nav .nav-list-lower h1{
     }
 
     nav #menu-btn{
-        width: 25px;
+        width: 45px;
     }
 
     nav #menu-btn-cancel{
