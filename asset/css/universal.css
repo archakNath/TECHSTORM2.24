@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'SpaceBoards';
+    src: local('SpaceBoards'), url('/assets/font/spaceboards.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoboldCuts';
+    src: local('GoboldCuts'), url('/assets/font/gobold_cuts.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MavisSansRegular';
+    src: local('MavisSansRegular'), url('/asset/font/mavis.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MavisSansLight';
+    src: local('MavisSansLight'), url('/asset/font/mavis_light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MavisSansBold';
+    src: local('MavisSansBold'), url('/asset/font/mavis_bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Regista';
+    src: local('Regista'), url('/asset/font/regista.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Soliden-Bold';
+    src: local('Soliden-Bold'), url('/asset/font/soliden_bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Soliden-BoldCondensed';
+    src: local('Soliden-BoldCondensed'), url('/asset/font/soliden_boldcondensed.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Soliden-BoldCondensedOblique';
+    src: local('Soliden-BoldCondensedOblique'), url('/asset/font/soliden_boldcondensedoblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Soliden-BoldExpanded';
+    src: local('Soliden-BoldExpanded'), url('/asset/font/soliden_boldexpanded.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Soliden-BoldExpandedOblique';
+    src: local('Soliden-BoldExpandedOblique'), url('/asset/font/soliden_boldexpandedoblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Soliden-BoldOblique';
+    src: local('Soliden-BoldOblique'), url('/asset/font/soliden_boldoblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Soliden-Condensed';
+    src: local('Soliden-Condensed'), url('/asset/font/soliden_condensed.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Soliden-CondensedOblique';
+    src: local('Soliden-CondensedOblique'), url('/asset/font/soliden_condensedoblique.ttf') format('truetype');
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Soliden-Expanded';
+    src: local('Soliden-Expanded'), url('/asset/font/soliden_expanded.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Soliden-ExpandedOblique';
+    src: local('Soliden-ExpandedOblique'), url('/asset/font/soliden_expandedoblique.ttf') format('truetype');
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Soliden-Oblique';
+    src: local('Soliden-Oblique'), url('/asset/font/soliden_oblique.ttf') format('truetype');
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Soliden-Regular';
+    src: local('Soliden-Regular'), url('/asset/font/soliden_regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Soliden-Regular', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav #logo{
+    width: 60px;
+    margin-left: 20px;
+}
+
+nav #menu-btn{
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav #menu-btn-cancel{
+    width: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-list{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-color: #313131;
+    right: 0;
+    top: 0;
+    transform: translateX(800px);
+}
+
+nav .nav-list-upper{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 15px;
+}
+
+nav .nav-list-lower{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+nav .nav-list-lower .nav-socials-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+}
+nav .nav-list-lower .nav-pages-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+}
+
+nav .nav-list-lower p{
+    color: gray;
+}
+
+nav .nav-list-lower li{
+    list-style: none;
+    cursor: pointer;
+}
+
+nav .nav-list-lower h1{
+    cursor: pointer;
+}
+
+@media(max-width:700px){
+    .nav-list{
+        width: 100%;
+    }
+}
