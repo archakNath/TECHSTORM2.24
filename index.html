@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
     <title>TECHSTORM 2.24</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
@@ -13,7 +15,7 @@
 
 <body>
     <nav>
-        <img src="/asset/resource/image/logo/techfest_logo.png" class="magnet-target" id="logo" alt="techstorm logo">
+        <img src="/asset/resource/image/logo/techfest_logo.png" id="logo" alt="techstorm logo">
 
         <div id="nav-part2">
             <img src="/asset/resource/image/icon/menu-white.png" class="magnet-target" alt="" id="menu-btn">
@@ -44,8 +46,19 @@
         </div>
     </nav>
 
-    <section id="section1"></section>
-    <section id="section2"></section>
+    <main id="main">
+        <div id="page1">
+            <video id="background-video" autoplay muted loop>
+              <source src="/asset/resource/video/falling-star.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        
+            <div id="content">
+              <!-- Your content goes here -->
+              <h1>TECHSTORM 2.24</h1>
+            </div>
+          </div>
+    </main>
 
     <!-- Locomotive JS  -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
