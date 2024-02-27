@@ -59,3 +59,15 @@ function hrefLinks(){
     });
 }
 hrefLinks();
+
+// change nav background on scroll
+
+window.addEventListener('scroll', function (){
+    if(this.window.scrollY > 150){
+        this.document.querySelector('nav').style.backdropFilter = 'blur(10px)';
+        // this.document.querySelector('nav').style.backgroundColor = 'rgba(255, 255, 255, 0.025)';
+    } else {
+        this.document.querySelector('nav').style.backdropFilter = 'none';
+        // this.document.querySelector('nav').style.backgroundColor = 'none';
+    }
+})
