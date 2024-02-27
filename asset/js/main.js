@@ -38,3 +38,19 @@ gsap.from('#page2 #page2-right img', {
         shrub: 2
     }
 })
+
+var tl = gsap.timeline({scrollTrigger:{
+    trigger: '#page4',
+    end: '200% 100%',
+    scrub: 2,
+    pin: true
+}})
+tl.to('#page4 #gallery-bg', {
+    width: '100vw',
+    height: '100vh',
+    borderRadius: 0
+}, 'a')
+tl.to('#page4 #gallery-go-to', {
+    opacity: 1,
+    delay: .5
+}, 'a')
