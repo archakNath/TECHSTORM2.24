@@ -216,9 +216,8 @@ main {
 }
 
 @media(max-width: 892px) {
-    #page4 img {
+    #page4 #gallery-bg {
         width: 97%;
-
     }
 }
 
