@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
+    <title>TechStorm 2.24 | Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="/asset/css/universal.css">
     <link rel="stylesheet" href="/asset/css/gallery.css">
 </head>
 <body>
+  <nav>
+    <div id="nav-part1">
+        <img src="/asset/resource/image/logo/techfest_logo.png" id="logo" alt="techstorm logo">
+        <h2>TECHSTORM 2.24</h2>
+    </div>
+
+    <div id="nav-part2">
+        <h2 class="magnet-target home-page-link">home</h1>
+        <h2 class="magnet-target events-page-link">events</h2>
+        <h2 class="magnet-target gallery-page-link">gallery</h2>
+        <h2 class="magnet-target schedule-page-link">schedule</h2>
+        <h2 class="magnet-target team-page-link">team</h2>
+        <img src="/asset/resource/image/icon/menu-white.png" class="magnet-target" alt="" id="menu-btn">
+    </div>
+
+    <div class="nav-list">
+        <div class="nav-list-upper">
+            <img src="/asset/resource/image/icon/cross-white.png" class="magnet-target" alt="" id="menu-btn-cancel">
+        </div>
+        <div class="nav-list-lower">
+            <div class="nav-socials-list">
+                <p>Socials</p>
+                <li class="magnet-target youtube-social-link">youtube</li>
+                <li class="magnet-target instagram-social-link">instagram</li>
+                <li class="magnet-target facebook-social-link">facebook</li>
+                <li class="magnet-target linkedin-social-link">linkedin</li>
+            </div>
+            <div class="nav-pages-list">
+                <p>Menu</p>
+                <h1 class="magnet-target home-page-link">home</h1>
+                <h1 class="magnet-target events-page-link">events</h1>
+                <h1 class="magnet-target gallery-page-link">gallery</h1>
+                <h1 class="magnet-target schedule-page-link">schedule</h1>
+                <h1 class="magnet-target team-page-link">team</h1>
+            </div>
+        </div>
+    </div>
+</nav>
    <div id="main">
     <div id="gallery">
       <div id="heading">
@@ -74,13 +117,26 @@
   <!-- ------------------------lenis js for smooth scrolling------------------------ -->
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script> 
 
+  <!-- Locomotive JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 
-  <!-- -----------------------gsap----------------------- -->
-  s<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--  Gsap is needed for Basic Effects -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
-  <!-- ---------------------------scrollTrigger--------------------------- -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Scroll Trigger is needed for Scroll Effects -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
+  <!-- Three.js is needed for 3d Effects -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+  <!-- ControlKit is needed for Debug Panel -->
+  <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+  <!-- Shery JS for cool Effects -->
+  <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+  <script src="/asset/js/shery.js"></script>
+
+  <script src="/asset/js/universal.js"></script>
   <script src="/asset/js/gallery.js"></script>
 </body>
 </html>
