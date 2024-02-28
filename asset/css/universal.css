@@ -125,12 +125,30 @@ nav{
 }
 
 nav #logo{
-    width: 40px;
+    width: 45px;
     margin-left: 20px;
 }
 
+nav #nav-part1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #nav-part2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #nav-part2 h2{
+    cursor: pointer;
+}
+
 nav #menu-btn{
-    width: 25px;
+    width: 30px;
     margin-right: 20px;
     cursor: pointer;
 }
@@ -143,12 +161,11 @@ nav #menu-btn-cancel{
 
 .nav-list{
     position: absolute;
-    width: 50%;
+    width: fit-content;
     height: 100vh;
     background-color: #313131;
     right: 0;
     top: 0;
-    transform: translateX(800px);
 }
 
 nav .nav-list-upper{
@@ -173,12 +190,12 @@ nav .nav-list-lower .nav-socials-list{
     padding: 30px;
 }
 nav .nav-list-lower .nav-pages-list{
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 20px;
     height: 100%;
     width: 50%;
-    padding: 30px;
+    padding: 20px;
 }
 
 nav .nav-list-lower p{
@@ -195,6 +212,10 @@ nav .nav-list-lower h1{
 }
 
 @media(max-width:700px){
+
+    nav #nav-part2 h2{
+        display: none;
+    }
     .nav-list{
         width: 100%;
     }
@@ -209,5 +230,13 @@ nav .nav-list-lower h1{
 
     nav #menu-btn-cancel{
         width: 40px;
+    }
+
+    nav .nav-list-lower .nav-socials-list{
+        padding: 20px;
+    }
+
+    nav .nav-list .nav-pages-list{
+        display: flex;
     }
 }

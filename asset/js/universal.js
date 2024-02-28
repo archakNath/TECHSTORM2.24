@@ -1,18 +1,21 @@
 // nav animation
 var tl = gsap.timeline();
-tl.from("nav #logo, nav #menu-btn", {
+tl.from("nav #logo, nav #menu-btn, nav #nav-part2 h2", {
     y: -50,
-    duration:.5,
+    duration:.2,
     opacity:0,
-    stagger:.5
+    stagger:.2
 })
+
+// hide nav-links
+document.querySelector('.nav-list').style.transform = `translateX(${document.querySelector('.nav-list').offsetWidth}px)`;
 
 // menu animation
 const menuBtnCancel = document.getElementById('menu-btn-cancel');
 const menuBtn = document.getElementById('menu-btn');
 menuBtnCancel.onclick = () => {
     gsap.to(".nav-list", {
-        x: 800
+        x: document.querySelector('.nav-list').offsetWidth
     });
     
 }
@@ -65,9 +68,9 @@ hrefLinks();
 window.addEventListener('scroll', function (){
     if(this.window.scrollY > 150){
         this.document.querySelector('nav').style.backdropFilter = 'blur(10px)';
-        // this.document.querySelector('nav').style.backgroundColor = 'rgba(255, 255, 255, 0.025)';
+        this.document.querySelector('nav').style.backgroundColor = 'rgba(255, 255, 255, 0.025)';
     } else {
         this.document.querySelector('nav').style.backdropFilter = 'none';
-        // this.document.querySelector('nav').style.backgroundColor = 'none';
+        this.document.querySelector('nav').style.backgroundColor = 'rgba(255, 255, 255, 0)';
     }
 })
