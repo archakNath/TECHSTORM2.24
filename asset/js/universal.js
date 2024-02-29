@@ -65,6 +65,16 @@ function hrefLinks(){
             window.location.href = '/pages/team.html'
         }
     });
+    document.querySelectorAll('.events-page-link').forEach(link => {
+        link.onclick = () => {
+            window.location.href = '/pages/event.html'
+        }
+    });
+    document.querySelectorAll('.schedule-page-link').forEach(link => {
+        link.onclick = () => {
+            window.location.href = '/pages/schedule.html'
+        }
+    });
 }
 hrefLinks();
 
