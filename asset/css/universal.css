@@ -100,20 +100,21 @@
     src: local('Soliden-Regular'), url('/asset/font/soliden_regular.ttf') format('truetype');
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
     width: 100%;
     height: 100%;
     color: white;
     font-family: 'Soliden-Regular', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,42 +125,42 @@ nav{
     transition: all .2s ease-in;
 }
 
-nav #logo{
+nav #logo {
     width: 45px;
     margin-left: 20px;
 }
 
-nav #nav-part1{
+nav #nav-part1 {
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
-nav #nav-part2{
+nav #nav-part2 {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
-nav #nav-part2 h2{
+nav #nav-part2 h2 {
     cursor: pointer;
 }
 
-nav #menu-btn{
+nav #menu-btn {
     width: 30px;
     margin-right: 20px;
     cursor: pointer;
 }
 
-nav #menu-btn-cancel{
+nav #menu-btn-cancel {
     width: 60px;
     margin-right: 20px;
     cursor: pointer;
 }
 
-.nav-list{
+.nav-list {
     position: absolute;
     width: fit-content;
     height: 100vh;
@@ -168,20 +169,20 @@ nav #menu-btn-cancel{
     top: 0;
 }
 
-nav .nav-list-upper{
+nav .nav-list-upper {
     display: flex;
     flex-direction: column;
     align-items: end;
     padding-top: 15px;
 }
 
-nav .nav-list-lower{
+nav .nav-list-lower {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
 
-nav .nav-list-lower .nav-socials-list{
+nav .nav-list-lower .nav-socials-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -189,7 +190,8 @@ nav .nav-list-lower .nav-socials-list{
     width: 50%;
     padding: 30px;
 }
-nav .nav-list-lower .nav-pages-list{
+
+nav .nav-list-lower .nav-pages-list {
     display: none;
     flex-direction: column;
     gap: 20px;
@@ -198,45 +200,111 @@ nav .nav-list-lower .nav-pages-list{
     padding: 20px;
 }
 
-nav .nav-list-lower p{
+nav .nav-list-lower p {
     color: gray;
 }
 
-nav .nav-list-lower li{
+nav .nav-list-lower li {
     list-style: none;
     cursor: pointer;
 }
 
-nav .nav-list-lower h1{
+nav .nav-list-lower h1 {
     cursor: pointer;
 }
 
-@media(max-width:700px){
+@media(max-width:700px) {
 
-    nav #nav-part2 h2{
+    nav h2{
+        font-size: 17px;
+    }
+
+    nav #nav-part2 h2 {
         display: none;
     }
-    .nav-list{
+
+    .nav-list {
         width: 100%;
     }
 
-    nav #logo{
+    nav #logo {
         width: 40px;
     }
 
-    nav #menu-btn{
+    nav #menu-btn {
         width: 25px;
     }
 
-    nav #menu-btn-cancel{
+    nav #menu-btn-cancel {
         width: 40px;
     }
 
-    nav .nav-list-lower .nav-socials-list{
+    nav .nav-list-lower .nav-socials-list {
         padding: 20px;
     }
 
-    nav .nav-list .nav-pages-list{
+    nav .nav-list .nav-pages-list {
         display: flex;
+    }
+}
+
+footer {
+    background-color: #1c1c1c;
+    position: sticky;
+    padding: 70px 50px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer>div {
+    width: 22%;
+}
+
+footer .techstorm-name {
+    width: 200px;
+    height: fit-content;
+    margin-top: -10px;
+}
+
+footer h2 {
+    color: #4b4b4b;
+    margin-bottom: 10px;
+}
+
+footer p,
+footer li {
+    list-style: none;
+    color: gray;
+}
+
+footer li {
+    margin-bottom: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .footer-part4 .social-list img {
+    width: 35px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+@media(max-width:900px) {
+    footer>div {
+        width: 45%;
+    }
+}
+
+@media(max-width:550px) {
+    footer>div {
+        width: 100%;
+    }
+
+    footer .footer-part1 {
+        display: flex;
+        justify-content: center;
     }
 }

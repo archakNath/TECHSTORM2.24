@@ -29,7 +29,7 @@ gsap.to('#page2 h1 span', {
 // description astronaut come in
 gsap.from('#page2 #page2-right img', {
     opacity: 0,
-    y: 20, 
+    y: 20,
     duration: 1,
     scrollTrigger: {
         trigger: '#page2 img',
@@ -39,12 +39,14 @@ gsap.from('#page2 #page2-right img', {
     }
 })
 
-var tl = gsap.timeline({scrollTrigger:{
-    trigger: '#page4',
-    end: '200% 100%',
-    scrub: 2,
-    pin: true
-}})
+var tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: '#page4',
+        end: '200% 100%',
+        scrub: 2,
+        pin: true
+    }
+})
 tl.to('#page4 #gallery-bg', {
     width: '100vw',
     height: '100vh',
@@ -52,5 +54,24 @@ tl.to('#page4 #gallery-bg', {
 }, 'a')
 tl.to('#page4 #gallery-go-to', {
     opacity: 1,
-    delay: .5
+    delay: .1
 }, 'a')
+
+// accordian animation
+var accordians = document.querySelectorAll('#page6 .indi-question');
+accordians.forEach(accordian => {
+    var icon = accordian.querySelector('img');
+    var answer = accordian.querySelector('.answer');
+    accordian.onclick = () => {
+        accordians.forEach(accord => {
+            var icon = accord.querySelector('img');
+            var answer = accord.querySelector('.answer');
+            if (icon.classList.contains('active')) {
+                icon.classList.toggle('active');
+                answer.classList.toggle('active');
+            }
+        })
+        icon.classList.toggle('active');
+        answer.classList.toggle('active');
+    }
+});
