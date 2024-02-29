@@ -15,7 +15,7 @@ var team = [
         name: 'Ipsita Mitra',
         team: 'Core',
         subTeam: 'Creative Management Team',
-        linkedin: 'https://www.linkedin.com/in/ipsita-mitra-5a0472214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap'
+        linkedin: 'https://www.linkedin.com/in/ipsita-mitra-5a0472214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     },
     {
         name: 'Srijita Mallick',
