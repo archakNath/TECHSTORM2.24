@@ -60,6 +60,11 @@ function hrefLinks(){
             window.location.href = '/pages/gallery.html'
         }
     });
+    document.querySelectorAll('.team-page-link').forEach(link => {
+        link.onclick = () => {
+            window.location.href = '/pages/team.html'
+        }
+    });
 }
 hrefLinks();
 

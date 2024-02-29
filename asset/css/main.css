@@ -232,6 +232,8 @@ main {
     background-image: url(/asset/resource/image/background/stary_bg.jpg);
     background-size: contain;
     position: sticky;
+    padding-top: 100px;
+    padding-inline: 30px;
 }
 
 #page6 {
