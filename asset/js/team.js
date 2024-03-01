@@ -1,5 +1,29 @@
 var coreTeam = [
     {
+        "number": 3,
+        "name": "Sayon Das",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 8777491866,
+        "linkedin": "www.linkedin.com/in/sayon-das-aa21b3127",
+        "background": "/asset/resource/image/member/core/member-bg/Sayon-Das.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Sayon-Das-removebg-preview.png",
+        "team": "Event Management Team",
+        "email": "dassayon16@gmail.com"
+    },
+    {
+        "number": 6,
+        "name": "Probuddha Bikas Chatterjee",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9330258245,
+        "linkedin": "https://www.linkedin.com/in/probuddha-chatterjee-089a59221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Probuddha-Bikas-Chatterjee.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Probuddha-Bikas-Chatterjee-removebg-preview.png",
+        "team": "Event Management Team",
+        "email": "prabuddhachatterjee05@gmail.com"
+    },
+    {
         "number": 1,
         "name": "Sagnick Routh",
         "dep": "CSE",
@@ -23,58 +47,16 @@ var coreTeam = [
         "email": "rishavthakkar@gmail.com"
     },
     {
-        "number": 3,
-        "name": "Sayon Das",
-        "dep": "CSE",
-        "year": "3rd",
-        "contact": 8777491866,
-        "linkedin": "www.linkedin.com/in/sayon-das-aa21b3127",
-        "background": "/asset/resource/image/member/core/member-bg/Sayon-Das.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Sayon-Das-removebg-preview.png",
-        "team": "Event Management Team",
-        "email": "dassayon16@gmail.com"
-    },
-    {
-        "number": 4,
-        "name": "Ipsita Mitra",
-        "dep": "CSE",
-        "year": "3rd",
-        "contact": 6290410210,
-        "linkedin": "https://www.linkedin.com/in/ipsita-mitra-5a0472214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "background": "/asset/resource/image/member/core/member-bg/Ipsita-Mitra.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Ipsita-Mitra-removebg-preview.png",
-        "team": "Creative Management Team",
-        "email": "mitraipsita2@gmail.com"
-    },
-    {
         "number": 5,
-        "name": "Aman Tiwari",
+        "name": "Aman Kumar Tiwari",
         "dep": "CSE",
         "year": "3rd",
-        "contact": 9334121190
-    },
-    {
-        "number": 6,
-        "name": "Probuddha Bikas Chatterjee",
-        "dep": "ECE",
-        "year": "3rd",
-        "contact": 9330258245,
-        "linkedin": "https://www.linkedin.com/in/probuddha-chatterjee-089a59221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "background": "/asset/resource/image/member/core/member-bg/Probuddha-Bikas-Chatterjee.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Probuddha-Bikas-Chatterjee-removebg-preview.png",
-        "team": "Event Management Team",
-        "email": "prabuddhachatterjee05@gmail.com"
-    },
-    {
-        "number": 7,
-        "name": "Safalya Pan",
-        "dep": "ECE",
-        "year": "3rd",
-        "contact": 9051347625,
-        "background": "/asset/resource/image/member/core/member-bg/Safalya-Pan.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Safalya-Pan-removebg-preview.png",
-        "team": "Discipline & Hospitality Management Team",
-        "email": "pansafalya2003@gmail.com"
+        "contact": 9334121190,
+        "linkedin": "https://www.linkedin.com/in/aman-kumar-tiwari-602743227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Aman-Kumar-Tiwari.JPG",
+        "picture": "/asset/resource/image/member/core/member-image/Aman-Kumar-Tiwari-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "tiwarianush1717@gmail.com"
     },
     {
         "number": 8,
@@ -89,37 +71,67 @@ var coreTeam = [
         "email": "debparnaghatak30@gmail.com"
     },
     {
-        "number": 9,
-        "name": "Anushka Mukherjee",
-        "dep": "ECE",
+        "number": 15,
+        "name": "Shreya Gupta",
+        "dep": "IT",
         "year": "3rd",
-        "contact": 9831406436,
-        "linkedin": "https://www.linkedin.com/in/anushka-mukherjee-159ba7249/",
-        "background": "/asset/resource/image/member/core/member-bg/Anushka-Mukherjee.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Anushka-Mukherjee-removebg-preview.png",
-        "team": "Creative Management Team",
-        "email": "anushkamukherjee002@gmail.com"
+        "contact": 9123389663,
+        "background": "/asset/resource/image/member/core/member-bg/Shreya-Gupta.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Shreya-Gupta-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "guptashreya627@gmail.com"
     },
     {
-        "number": 10,
-        "name": "Priyanshu Mandal",
+        "number": 19,
+        "name": "Sauvick Pramanik",
+        "dep": "MCA",
+        "year": "1st",
+        "contact": 6291420641,
+        "background": "/asset/resource/image/member/core/member-bg/Sauvick-Pramanick.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Sauvick-Pramanik-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "sauvickpramanick@gmail.com"
+    },
+    {
+        "number": 20,
+        "name": "Swarnendu Saha",
+        "dep": "MCA",
+        "year": "1st",
+        "contact": 8582833783,
+        "background": "/asset/resource/image/member/core/member-bg/Swarnendu-Saha.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Swarnendu-Saha-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "swarnendusaha14@gmail.com"
+    },
+    {
+        "number": 12,
+        "name": "Arjun Chakraborty",
+        "dep": "EE",
+        "year": "3rd",
+        "contact": 9836381637,
+        "team": "PR and Sponsor Management Team",
+    },
+    {
+        "number": 7,
+        "name": "Safalya Pan",
         "dep": "ECE",
         "year": "3rd",
-        "contact": 9330682757
+        "contact": 9051347625,
+        "background": "/asset/resource/image/member/core/member-bg/Safalya-Pan.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Safalya-Pan-removebg-preview.png",
+        "team": "Discipline & Hospitality Management Team",
+        "email": "pansafalya2003@gmail.com"
     },
     {
         "number": 11,
         "name": "Arindam Paul",
         "dep": "EE",
         "year": "3rd",
-        "contact": 9007113211
-    },
-    {
-        "number": 12,
-        "name": "Subhajit Sarkar",
-        "dep": "EE",
-        "year": "3rd",
-        "contact": 9836381637
+        "contact": 9007113211,
+        "background": "/asset/resource/image/member/core/member-bg/Arindam-Paul.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Arindam-Paul-removebg-preview.png",
+        "team": "Discipline & Hospitality Management Team",
+        "email": "arindampaul1001@gmail.com"
     },
     {
         "number": 13,
@@ -134,29 +146,6 @@ var coreTeam = [
         "email": "henamahata@gmail.com"
     },
     {
-        "number": 14,
-        "name": "Swarnali Kundu",
-        "dep": "IT",
-        "year": "3rd",
-        "contact": 9007011975,
-        "linkedin": "https://www.linkedin.com/in/swarnali-kundu-896b31213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "background": "/asset/resource/image/member/core/member-bg/Swarnali-Kundu.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Swarnali-Kundu-removebg-preview.png",
-        "team": "Creative Management Team",
-        "email": "swarnali.kundu1974@gmail.com"
-    },
-    {
-        "number": 15,
-        "name": "Shreya Gupta",
-        "dep": "IT",
-        "year": "3rd",
-        "contact": 9123389663,
-        "background": "/asset/resource/image/member/core/member-bg/Shreya-Gupta.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Shreya-Gupta-removebg-preview.png",
-        "team": "PR and Sponsor Management Team",
-        "email": "guptashreya627@gmail.com"
-    },
-    {
         "number": 16,
         "name": "Anwesha Saha",
         "dep": "IT",
@@ -167,6 +156,50 @@ var coreTeam = [
         "picture": "/asset/resource/image/member/core/member-image/Anwesha-Saha-removebg-preview.png",
         "team": "Discipline & Hospitality Management Team",
         "email": "anweshasaha590@gmail.com "
+    },
+    {
+        "number": 12,
+        "name": "Srinjani Das",
+        "dep": "BCA",
+        "year": "3rd",
+        "contact": 9836381637,
+        "team": "Discipline & Hospitality Management Team",
+    },
+    {
+        "number": 4,
+        "name": "Ipsita Mitra",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 6290410210,
+        "linkedin": "https://www.linkedin.com/in/ipsita-mitra-5a0472214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Ipsita-Mitra.JPG",
+        "picture": "/asset/resource/image/member/core/member-image/Ipsita-Mitra-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "mitraipsita2@gmail.com"
+    },
+    {
+        "number": 9,
+        "name": "Anushka Mukherjee",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9831406436,
+        "linkedin": "https://www.linkedin.com/in/anushka-mukherjee-159ba7249/",
+        "background": "/asset/resource/image/member/core/member-bg/Anushka-Mukherjee.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Anushka-Mukherjee-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "anushkamukherjee002@gmail.com"
+    },
+    {
+        "number": 14,
+        "name": "Swarnali Kundu",
+        "dep": "IT",
+        "year": "3rd",
+        "contact": 9007011975,
+        "linkedin": "https://www.linkedin.com/in/swarnali-kundu-896b31213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Swarnali-Kundu.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Swarnali-Kundu-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "swarnali.kundu1974@gmail.com"
     },
     {
         "number": 17,
@@ -193,27 +226,25 @@ var coreTeam = [
         "email": "arindamdandapat11@gmail.com"
     },
     {
-        "number": 19,
-        "name": "Sauvick Pramanik",
-        "dep": "MCA",
-        "year": "1st",
-        "contact": 6291420641,
-        "background": "/asset/resource/image/member/core/member-bg/Sauvick-Pramanick.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Sauvick-Pramanik-removebg-preview.png",
-        "team": "PR and Sponsor Management Team",
-        "email": "sauvickpramanick@gmail.com"
+        "number": 10,
+        "name": "Priyanshu Mandal",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9330682757,
+        "linkedin": "https://www.linkedin.com/in/priyanshu-mandal-9b20a1187/",
+        "background": "/asset/resource/image/member/core/member-bg/Priyanshu-Mandal.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Priyanshu-Mandal-removebg-preview.png",
+        "team": "Management",
+        "email": "priyanshumandal.msd@gmail.com"
     },
     {
-        "number": 20,
-        "name": "Swarnendu Saha",
-        "dep": "MCA",
-        "year": "1st",
-        "contact": 8582833783,
-        "background": "/asset/resource/image/member/core/member-bg/Swarnendu-Saha.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Swarnendu-Saha-removebg-preview.png",
-        "team": "PR and Sponsor Management Team",
-        "email": "swarnendusaha14@gmail.com"
-    }
+        "number": 12,
+        "name": "Subhajit Sarkar",
+        "dep": "EE",
+        "year": "3rd",
+        "contact": 9836381637,
+        "team": "Management",
+    },
 ]
 
 const list = document.getElementById('member-list');
@@ -259,7 +290,7 @@ coreTeam.forEach(member => {
     gradient.appendChild(name);
     if (member.team != undefined) {
         gradient.appendChild(position);
-        position.textContent = `${member.team}`
+        position.textContent = `Core, ${member.team}`
     }
     indiMember.appendChild(gradient);
     list.appendChild(indiMember);
@@ -275,3 +306,13 @@ coreTeam.forEach(member => {
         <img src="/asset/resource/image/icon/arrow-up-right.svg" alt="" class="link-icon">
     </div>
 </div> */}
+
+var events = document.querySelectorAll('main .event-list .event');
+events.forEach(event => {
+    var icon = event.querySelector('main .event-list .event .top .icon');
+    var bottom = event.querySelector('.bottom');
+    event.onclick = () => {
+        icon.classList.toggle('active');
+        bottom.classList.toggle('active');
+    }
+});

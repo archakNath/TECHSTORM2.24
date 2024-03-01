@@ -112,11 +112,30 @@ main .event-list .event{
 main .event-list .event .top{
     padding: 20px;
     background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+main .event-list .event .top .icon{
+    width: 30px;
+    transition: all .2s;
+}
+
+main .event-list .event .top .icon.active{
+    transform: rotate(180deg);
 }
 
 main .event-list .event .bottom{
-    padding: 20px;
+    padding: 0px;
     display: flex;
+    height: 0;
+    transition: all .2s;
+}
+
+main .event-list .event .bottom.active{
+    height: fit-content;
+    padding: 20px;
 }
 
 main .event-list .event .bottom .coordinator{
