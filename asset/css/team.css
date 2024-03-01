@@ -97,6 +97,60 @@ main #member-list .member:hover .link-icon{
     opacity: 1;
 }
 
+main .event-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .event-list .event{
+    background-color: #3131312a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main .event-list .event .top{
+    padding: 20px;
+    background-color: #313131;
+}
+
+main .event-list .event .bottom{
+    padding: 20px;
+    display: flex;
+}
+
+main .event-list .event .bottom .coordinator{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+main .event-list .event .horizontal{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+main .event-list .event .bottom .volunteer{
+    width: 40%;
+    padding-left: 20px;
+    color: white;
+}
+
+main .event-list .event .bottom .volunteer span{
+    background-color: #313131;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+    display: block;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+main .event-list .event .bottom .volunteer h3{
+    margin-bottom: 10px;
+}
+
 @media(max-width:700px){
     main #member-list .member{
         width: 30%;
