@@ -1,4 +1,4 @@
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -227,13 +227,83 @@ main {
 }
 
 #page5 {
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     background-image: url(/asset/resource/image/background/stary_bg.jpg);
     background-size: contain;
     position: sticky;
     padding-top: 100px;
     padding-inline: 30px;
+}
+
+#page5>.container>h1{
+    margin-bottom: 10px;
+}
+
+#page5 .container{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+#page5 .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    width: 100%;
+    /* Set the width to 100% for responsiveness */
+}
+
+#page5 .scroll-item {
+    flex: 0 0 auto;
+    /* Make the items not grow or shrink, maintaining their original size */
+    height: 75vh;
+    /* Set the width of each item */
+    aspect-ratio: 3/4;
+    background-color: #313131;
+    border-radius: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+#page5 .scroll-item img {
+    width: 100%;
+    transition: all .2s;
+    position: absolute;
+}
+
+#page5 .scroll-item:hover img {
+    scale: 1.1;
+}
+
+#page5 .gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #313131de;
+    padding: 10px;
+    transition: all .2s;
+}
+
+#page5 .scroll-item:hover .gradient{
+    background-color: #313131b6;
+}
+
+#page5 .gradient .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px dashed gray;
+    border-radius: 10px;
+}
+
+#page5 .gradient h1 {
+    margin-bottom: 20px;
 }
 
 #page6 {
@@ -284,11 +354,11 @@ main {
     transition: all .5s;
 }
 
-#page6 .indi-question img.active{
+#page6 .indi-question img.active {
     transform: rotate(180deg);
 }
 
-#page6 .indi-question{
+#page6 .indi-question {
     background-color: #3131313e;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -311,7 +381,7 @@ main {
     transition: all .5s;
 }
 
-#page6 .indi-question .answer.active{
+#page6 .indi-question .answer.active {
     height: fit-content;
     padding: 20px;
 }

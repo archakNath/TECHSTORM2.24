@@ -1,80 +1,223 @@
-var team = [
+var coreTeam = [
     {
-        name: 'Arindam Dandapat',
-        team: 'Core',
-        subTeam: 'Creative Management Team',
-        linkedin: 'https://www.linkedin.com/in/arindam-dandapat-719688225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+        "number": 1,
+        "name": "Sagnick Routh",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 8697773275,
+        "linkedin": "https://www.linkedin.com/in/sagnick-routh-21a564246?trk=contact-info",
+        "background": "/asset/resource/image/member/core/member-bg/Sagnick-Routh.jpeg",
+        "picture": "/asset/resource/image/member/core/member-image/Sagnick-Routh-removebg-preview.png",
+        "team": "Finance Management Team",
+        "email": "sagnick.routh17@gmail.com"
     },
     {
-        name: 'Arnab Sarkar',
-        team: 'Core',
-        subTeam: 'Creative Management Team',
-        linkedin: ''
+        "number": 2,
+        "name": "Rishav Thakkar",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 9830718037,
+        "background": "/asset/resource/image/member/core/member-bg/Rishav-Thakkar.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Rishav-Thakkar-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "rishavthakkar@gmail.com"
     },
     {
-        name: 'Ipsita Mitra',
-        team: 'Core',
-        subTeam: 'Creative Management Team',
-        linkedin: 'https://www.linkedin.com/in/ipsita-mitra-5a0472214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+        "number": 3,
+        "name": "Sayon Das",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 8777491866,
+        "linkedin": "www.linkedin.com/in/sayon-das-aa21b3127",
+        "background": "/asset/resource/image/member/core/member-bg/Sayon-Das.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Sayon-Das-removebg-preview.png",
+        "team": "Event Management Team",
+        "email": "dassayon16@gmail.com"
     },
     {
-        name: 'Srijita Mallick',
-        team: 'Volunteer',
-        subTeam: 'Creative Management Team',
-        linkedin: 'https://www.linkedin.com/in/srijita-mallick-10391a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+        "number": 4,
+        "name": "Ipsita Mitra",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 6290410210,
+        "linkedin": "https://www.linkedin.com/in/ipsita-mitra-5a0472214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Ipsita-Mitra.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Ipsita-Mitra-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "mitraipsita2@gmail.com"
     },
     {
-        name: 'Shuvam Pal',
-        team: 'Volunteer',
-        subTeam: 'Creative Management Team',
-        linkedin: ''
+        "number": 5,
+        "name": "Aman Tiwari",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 9334121190
     },
     {
-        name: 'Sheetam Coondoo',
-        team: 'Core',
-        subTeam: 'Creative Management Team',
-        linkedin: 'https://www.linkedin.com/in/sheetam-coondoo-6b612b21b/'
+        "number": 6,
+        "name": "Probuddha Bikas Chatterjee",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9330258245,
+        "linkedin": "https://www.linkedin.com/in/probuddha-chatterjee-089a59221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Probuddha-Bikas-Chatterjee.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Probuddha-Bikas-Chatterjee-removebg-preview.png",
+        "team": "Event Management Team",
+        "email": "prabuddhachatterjee05@gmail.com"
     },
     {
-        name: 'Agradip Banik',
-        team: 'Core',
-        subTeam: 'Creative Management Team',
-        linkedin: 'https://www.linkedin.com/in/agradip-banik-b80793292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+        "number": 7,
+        "name": "Safalya Pan",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9051347625,
+        "background": "/asset/resource/image/member/core/member-bg/Safalya-Pan.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Safalya-Pan-removebg-preview.png",
+        "team": "Discipline & Hospitality Management Team",
+        "email": "pansafalya2003@gmail.com"
     },
     {
-        name: 'Archak Nath',
-        team: 'Core',
-        subTeam: 'Creative Management Team',
-        linkedin: 'https://www.linkedin.com/in/archak-nath-a682aa247/'
+        "number": 8,
+        "name": "Debparna Ghatak",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9330249459,
+        "linkedin": "https://www.linkedin.com/in/debparna-ghatak-a08645200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Debparna-Ghatak.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Debparna-Ghatak-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "debparnaghatak30@gmail.com"
     },
     {
-        name: 'Shreya Gupta',
-        team: 'Core',
-        subTeam: 'PR and Sponsor Management Team',
-        linkedin: ''
+        "number": 9,
+        "name": "Anushka Mukherjee",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9831406436,
+        "linkedin": "https://www.linkedin.com/in/anushka-mukherjee-159ba7249/",
+        "background": "/asset/resource/image/member/core/member-bg/Anushka-Mukherjee.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Anushka-Mukherjee-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "anushkamukherjee002@gmail.com"
     },
     {
-        name: 'Debparna Ghatak',
-        team: 'Core',
-        subTeam: 'PR and Sponsor Management Team',
-        linkedin: 'https://www.linkedin.com/in/debparna-ghatak-a08645200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+        "number": 10,
+        "name": "Priyanshu Mandal",
+        "dep": "ECE",
+        "year": "3rd",
+        "contact": 9330682757
     },
     {
-        name: 'Rishav Thakkar',
-        team: 'Core',
-        subTeam: 'PR and Sponsor Management Team',
-        linkedin: ''
+        "number": 11,
+        "name": "Arindam Paul",
+        "dep": "EE",
+        "year": "3rd",
+        "contact": 9007113211
     },
     {
-        name: 'Sauvick Pramanick',
-        team: 'Core',
-        subTeam: 'PR and Sponsor Management Team',
-        linkedin: ''
+        "number": 12,
+        "name": "Subhajit Sarkar",
+        "dep": "EE",
+        "year": "3rd",
+        "contact": 9836381637
     },
+    {
+        "number": 13,
+        "name": "Hena Mahata",
+        "dep": "EE",
+        "year": "3rd",
+        "contact": 6294014187,
+        "linkedin": "https://www.linkedin.com/in/hena-mahata-55063a1a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Hena-Mahata.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Hena-Mahata-removebg-preview.png",
+        "team": "Discipline & Hospitality Management Team",
+        "email": "henamahata@gmail.com"
+    },
+    {
+        "number": 14,
+        "name": "Swarnali Kundu",
+        "dep": "IT",
+        "year": "3rd",
+        "contact": 9007011975,
+        "linkedin": "https://www.linkedin.com/in/swarnali-kundu-896b31213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Swarnali-Kundu.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Swarnali-Kundu-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "swarnali.kundu1974@gmail.com"
+    },
+    {
+        "number": 15,
+        "name": "Shreya Gupta",
+        "dep": "IT",
+        "year": "3rd",
+        "contact": 9123389663,
+        "background": "/asset/resource/image/member/core/member-bg/Shreya-Gupta.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Shreya-Gupta-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "guptashreya627@gmail.com"
+    },
+    {
+        "number": 16,
+        "name": "Anwesha Saha",
+        "dep": "IT",
+        "year": "3rd",
+        "contact": 7439900511,
+        "linkedin": "https://www.linkedin.com/in/anwesha-saha-44a291232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Anwesha-Saha.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Anwesha-Saha-removebg-preview.png",
+        "team": "Discipline & Hospitality Management Team",
+        "email": "anweshasaha590@gmail.com "
+    },
+    {
+        "number": 17,
+        "name": "Sheetam Coondoo",
+        "dep": "IT",
+        "year": "3rd ",
+        "contact": 9051634001,
+        "linkedin": "https://www.linkedin.com/in/sheetam-coondoo-6b612b21b/",
+        "background": "/asset/resource/image/member/core/member-bg/Sheetam-Coondoo.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Sheetam-Coondoo-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "sheetamcoondoo2003@gmail.com"
+    },
+    {
+        "number": 18,
+        "name": "Arindam Dandapat",
+        "dep": "IT",
+        "year": "3rd ",
+        "contact": 9679956590,
+        "linkedin": "https://www.linkedin.com/in/arindam-dandapat-719688225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Arindam-Dandapat.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Arindam-Dandapat-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "arindamdandapat11@gmail.com"
+    },
+    {
+        "number": 19,
+        "name": "Sauvick Pramanik",
+        "dep": "MCA",
+        "year": "1st",
+        "contact": 6291420641,
+        "background": "/asset/resource/image/member/core/member-bg/Sauvick-Pramanick.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Sauvick-Pramanik-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "sauvickpramanick@gmail.com"
+    },
+    {
+        "number": 20,
+        "name": "Swarnendu Saha",
+        "dep": "MCA",
+        "year": "1st",
+        "contact": 8582833783,
+        "background": "/asset/resource/image/member/core/member-bg/Swarnendu-Saha.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Swarnendu-Saha-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "swarnendusaha14@gmail.com"
+    }
 ]
 
 const list = document.getElementById('member-list');
-team.forEach(member => {
+coreTeam.forEach(member => {
     const indiMember = document.createElement('div');
     const background = document.createElement('img');
     const techstormBG = document.createElement('img');
@@ -84,34 +227,41 @@ team.forEach(member => {
     const position = document.createElement('p');
     const linkArrow = document.createElement('img');
 
-    indiMember.setAttribute('class', 'member')
+    indiMember.setAttribute('class', 'member');
     background.setAttribute('class', 'background');
     techstormBG.setAttribute('class', 'techstorm-bg');
     memberPic.setAttribute('class', 'member-pic');
     gradient.setAttribute('class', 'gradient');
     linkArrow.setAttribute('class', 'link-icon');
 
-    background.src = `/asset/resource/image/member-bg/${member.name.replace(/ /g, "-")}.jpg`;
+    if (member.background != null) {
+        background.src = member.background;
+        memberPic.src = member.picture;
+        indiMember.appendChild(background);
+        indiMember.appendChild(techstormBG);
+        indiMember.appendChild(memberPic);
+    } else {
+        indiMember.appendChild(techstormBG);
+        memberPic.src = '/asset/resource/image/member/core/member-image/unknown-man.png';
+        indiMember.appendChild(memberPic);
+    }
     techstormBG.src = '/asset/resource/image/background/team-bg.png';
-    memberPic.src = `/asset/resource/image/member-image/${member.name.replace(/ /g, "-")}-removebg.png`;
     name.textContent = member.name;
-    position.textContent = `${member.team}, ${member.subTeam}`
     linkArrow.src = '/asset/resource/image/icon/arrow-up-right.svg';
 
-    if (member.linkedin != '') {
+    if (member.linkedin != null) {
         gradient.appendChild(linkArrow);
         indiMember.onclick = () => {
             window.location.href = member.linkedin;
         }
     }
 
-    indiMember.appendChild(background);
-    indiMember.appendChild(techstormBG);
-    indiMember.appendChild(memberPic);
     gradient.appendChild(name);
-    gradient.appendChild(position);
+    if (member.team != undefined) {
+        gradient.appendChild(position);
+        position.textContent = `${member.team}`
+    }
     indiMember.appendChild(gradient);
-
     list.appendChild(indiMember);
 });
 

@@ -1,17 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
     background-image: url(/asset/resource/image/background/stary_bg.jpg);
     background-size: contain;
 }
 
-.coming-soon{
+.coming-soon {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -21,30 +22,78 @@ html,body{
     backdrop-filter: blur(5px);
 }
 
-main{
+main {
     max-width: 1000px;
     padding: 10px;
     margin-inline: auto;
     min-height: 100vh;
 }
 
-main h1{
+main>h1 {
     margin-top: 100px;
     margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
 }
 
 .scroll-container {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    width: 100%; /* Set the width to 100% for responsiveness */
+    width: 100%;
+    /* Set the width to 100% for responsiveness */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
 }
 
 .scroll-item {
-    flex: 0 0 auto; /* Make the items not grow or shrink, maintaining their original size */
-    width: 35%; /* Set the width of each item */
+    flex: 0 0 auto;
+    /* Make the items not grow or shrink, maintaining their original size */
+    width: 30%;
+    /* Set the width of each item */
     aspect-ratio: 3/4;
     background-color: #313131;
     border-radius: 10px;
-    margin-right: 10px; 
-    white-space: nowrap; 
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.scroll-item:hover img {
+    scale: 1.1;
+}
+
+.scroll-item img {
+    position: absolute;
+    width: 100%;
+    transition: all .2s;
+}
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #313131de;
+    padding: 10px;
+    transition: all .2s;
+}
+
+.scroll-item:hover .gradient{
+    background-color: #313131b6;
+}
+
+.gradient .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px dashed gray;
+    border-radius: 10px;
+}
+
+.gradient h1 {
+    margin-bottom: 20px;
 }

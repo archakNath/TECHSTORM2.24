@@ -150,6 +150,7 @@ nav #nav-part2 {
 
 nav #nav-part2 h2 {
     cursor: pointer;
+    display: none;
 }
 
 nav #menu-btn {
@@ -187,21 +188,33 @@ nav .nav-list-lower {
 }
 
 nav .nav-list-lower .nav-socials-list {
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+    text-transform: uppercase;
+    display: none;
+}
+nav .nav-list-lower .nav-socials-list  img{
+    width: 35px;
+    height: 35px;
+    margin-right: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+nav .nav-list-lower .nav-pages-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
     height: 100%;
     width: 50%;
-    padding: 30px;
-}
-
-nav .nav-list-lower .nav-pages-list {
-    display: none;
-    flex-direction: column;
-    gap: 20px;
-    height: 100%;
-    width: 50%;
     padding: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-inline: 100px;
 }
 
 nav .nav-list-lower p {
@@ -261,10 +274,11 @@ footer {
     align-items: start;
     flex-wrap: wrap;
     gap: 20px;
+    font-size: 14px;
 }
 
 footer>div {
-    width: 22%;
+    width: 15%;
 }
 
 footer .techstorm-name {
@@ -290,13 +304,16 @@ footer li {
     cursor: pointer;
 }
 
-footer .footer-part4 .social-list img {
+footer .footer-part5 .social-list img {
     width: 35px;
     margin-right: 3px;
     cursor: pointer;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
 }
 
-@media(max-width:900px) {
+@media(max-width:1050px) {
     footer>div {
         width: 45%;
     }
