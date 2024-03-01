@@ -67,6 +67,7 @@ function hrefLinks(){
     });
     document.querySelectorAll('.events-page-link').forEach(link => {
         link.onclick = () => {
+            localStorage.setItem('event', 'all');
             window.location.href = '/pages/event.html'
         }
     });

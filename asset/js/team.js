@@ -53,7 +53,7 @@ var coreTeam = [
         "year": "3rd",
         "contact": 9334121190,
         "linkedin": "https://www.linkedin.com/in/aman-kumar-tiwari-602743227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "background": "/asset/resource/image/member/core/member-bg/Aman-Kumar-Tiwari.JPG",
+        "background": "/asset/resource/image/member/core/member-bg/Aman-Kumar-Tiwari.jpg",
         "picture": "/asset/resource/image/member/core/member-image/Aman-Kumar-Tiwari-removebg-preview.png",
         "team": "PR and Sponsor Management Team",
         "email": "tiwarianush1717@gmail.com"

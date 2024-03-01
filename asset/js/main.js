@@ -80,23 +80,23 @@ accordians.forEach(accordian => {
 var categories = [
     {
         name: 'Brain Teaser',
-        image: '/asset/resource/image/events-bg/Brain Teaser_bg-min.png'
+        image: '/asset/resource/image/events-bg/brainTeaser.png'
     },
     {
         name: 'Technicals',
-        image: '/asset/resource/image/events-bg/techhunt-bg-min.jpeg'
+        image: '/asset/resource/image/events-bg/techhunt.jpeg'
     },
     {
-        name: 'Rover',
-        image: '/asset/resource/image/events-bg/ro-terrain-bg-min.jpeg'
+        name: 'Rovers',
+        image: '/asset/resource/image/events-bg/roterrain.jpeg'
     },
     {
         name: 'Games',
-        image: '/asset/resource/image/events-bg/fifa-bg-min.jpeg'
+        image: '/asset/resource/image/events-bg/fifa.jpeg'
     },
     {
         name: 'Creative',
-        image: '/asset/resource/image/events-bg/Creative Canvas_bg-min.png'
+        image: '/asset/resource/image/events-bg/creatives.png'
     }
 ]
 
@@ -127,5 +127,17 @@ categories.forEach(category => {
     scrollItem.appendChild(gradient);
 
     list.appendChild(scrollItem);
+
+    scrollItem.onclick = () => {
+        localStorage.setItem('event', category.name);
+        window.location.href = '/pages/cat-event.html'
+        var selectEvents = [];
+        events.forEach(event => {
+            if (event.category == localStorage.getItem('event')) {
+                selectEvents.push(event);
+            }
+        });
+        appendList(selectEvents);
+    }
 });
 

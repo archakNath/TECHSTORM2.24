@@ -1,52 +1,82 @@
-var categories = [
+var event_categories = [
     {
         name: 'Brain Teaser',
-        image: '/asset/resource/image/events-bg/Brain Teaser_bg-min.png'
+        image: '/asset/resource/image/events-bg/brainTeaser.png'
     },
     {
         name: 'Technicals',
-        image: '/asset/resource/image/events-bg/techhunt-bg-min.jpeg'
+        image: '/asset/resource/image/events-bg/techhunt.jpeg'
     },
     {
-        name: 'Rover',
-        image: '/asset/resource/image/events-bg/ro-terrain-bg-min.jpeg'
+        name: 'Rovers',
+        image: '/asset/resource/image/events-bg/roterrain.jpeg'
     },
     {
         name: 'Games',
-        image: '/asset/resource/image/events-bg/fifa-bg-min.jpeg'
+        image: '/asset/resource/image/events-bg/fifa.jpeg'
     },
     {
         name: 'Creative',
-        image: '/asset/resource/image/events-bg/Creative Canvas_bg-min.png'
+        image: '/asset/resource/image/events-bg/creatives.png'
     }
 ]
 
-const list = document.querySelector('.scroll-container');
-categories.forEach(category => {
-    const scrollItem = document.createElement('div');
-    const background = document.createElement('img');
-    const gradient = document.createElement('div');
-    const content = document.createElement('div');
-    const name = document.createElement('h1');
-    const presented = document.createElement('p');
-    const techstormName = document.createElement('h3');
 
-    scrollItem.setAttribute('class', 'scroll-item');
-    gradient.setAttribute('class', 'gradient');
-    content.setAttribute('class', 'content');
+appendList(event_categories);
+if (localStorage.getItem('event') == 'all') {
+} else {
+    var selectEvents = [];
+    events.forEach(event => {
+        if (event.category == localStorage.getItem('event')) {
+            selectEvents.push(event);
+        }
+    });
+    appendList(selectEvents);
+}
 
-    background.src = category.image;
-    name.textContent = category.name;
-    presented.textContent = 'presented by';
-    techstormName.textContent = 'TECHSTORM 2.24';
 
-    scrollItem.appendChild(background);
-    content.appendChild(name);
-    content.appendChild(presented);
-    content.appendChild(techstormName);
-    gradient.appendChild(content);
-    scrollItem.appendChild(gradient);
+function appendList(categories) {
+    const list = document.querySelector('.scroll-container');
+    list.innerHTML = '';
+    categories.forEach(category => {
+        const scrollItem = document.createElement('div');
+        const background = document.createElement('img');
+        const gradient = document.createElement('div');
+        const content = document.createElement('div');
+        const name = document.createElement('h1');
+        const presented = document.createElement('p');
+        const techstormName = document.createElement('h3');
 
-    list.appendChild(scrollItem);
-});
+        scrollItem.setAttribute('class', 'scroll-item');
+        gradient.setAttribute('class', 'gradient');
+        content.setAttribute('class', 'content');
 
+        background.src = category.image;
+        name.textContent = category.name;
+        presented.textContent = 'presented by';
+        techstormName.textContent = 'TECHSTORM 2.24';
+
+        scrollItem.appendChild(background);
+        content.appendChild(name);
+        content.appendChild(presented);
+        content.appendChild(techstormName);
+        gradient.appendChild(content);
+        scrollItem.appendChild(gradient);
+
+        list.appendChild(scrollItem);
+
+        scrollItem.onclick = () => {
+            localStorage.setItem('event', category.name);
+            window.location.href = '/pages/cat-event.html'
+                var selectEvents = [];
+                events.forEach(event => {
+                    if (event.category == localStorage.getItem('event')) {
+                        selectEvents.push(event);
+                    }
+                });
+                appendList(selectEvents);
+        }
+    });
+
+
+}
