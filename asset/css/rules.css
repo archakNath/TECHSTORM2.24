@@ -8,6 +8,7 @@ main {
     padding-top: 100px;
     max-width: 1000px;
     margin-inline: auto;
+    padding-inline: 10px;
 }
 
 main .image {
@@ -31,7 +32,61 @@ main .gradient {
     align-items: center;
 }
 
-main #description{
+main #description {
     margin-top: 20px;
     padding: 10px;
+}
+
+main button {
+    width: 100%;
+    padding: 15px 20px;
+    cursor: not-allowed;
+    background-color: #313131;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: all .2s;
+    font-size: 15px;
+}
+
+main button:hover {
+    background-color: rgba(255, 255, 255, 0.699);
+    color: #313131;
+}
+
+main .data-container{
+    margin-block: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .box{
+    width: 48%;
+    padding: 20px;
+    background-color: #313131;
+    border-radius: 10px;
+}
+
+main .box h2{
+    margin-block: 10px;
+}
+
+main .box p{
+    color: gray;
+}
+
+main > h1{
+    margin-block: 10px;
+    color: gray;
+}
+
+main li{
+    /* list-style: none; */
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 30px;
 }

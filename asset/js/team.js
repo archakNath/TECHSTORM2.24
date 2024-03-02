@@ -316,3 +316,44 @@ events.forEach(event => {
         bottom.classList.toggle('active');
     }
 });
+
+// var volunteerList = document.querySelector('.event-list');
+// async function fetchData() {
+//     try {
+//       const data = await fetch('/asset/json/volunteers.json');
+      
+//       if (!response.ok) {
+//         throw new Error('Failed to fetch JSON file');
+//       }
+  
+//       data.forEach(response => {
+//         var event = document.createElement('div');
+//         var top = document.createElement('div');
+//         var heading = document.createElement('h2');
+//         var icon = document.createElement('img');
+//         var bottom = document.createElement('div');
+//         var coordinatorDiv = document.createElement('div');
+//         var coordinatorHeading = document.createElement('h3');
+//         var horizontal = document.createElement('div');
+//         var coordinatorName = document.createElement('strong');
+//         var coordinatorContact = document.createElement('p');
+//         var volunteerDiv = document.createElement('div');
+//         var volunteerName = document.createElement('span');
+
+//         event.setAttribute('class', 'event');
+//         top.setAttribute('class', 'top');
+//         bottom.setAttribute('class', 'bottom');
+//         coordinatorDiv.setAttribute('class', 'coordinator');
+//         horizontal.setAttribute('class', 'horizontal');
+//         volunteerDiv.setAttribute('class', 'volunteer');
+
+//       })
+
+//       console.log('JSON data:', data);
+//     } catch (error) {
+//       console.error('Error:', error.message);
+//     }
+//   }
+  
+//   // Call the function to fetch and parse the JSON file
+//   fetchData();
