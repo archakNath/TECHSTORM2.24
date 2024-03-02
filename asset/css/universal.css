@@ -146,17 +146,18 @@ nav #nav-part2 {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 nav #nav-part2 h2 {
     cursor: pointer;
-    display: none;
 }
 
 nav #menu-btn {
     width: 30px;
     margin-right: 20px;
     cursor: pointer;
+    display: none;
 }
 
 nav #menu-btn-cancel {
@@ -250,6 +251,7 @@ nav .nav-list-lower h1 {
 
     nav #menu-btn {
         width: 25px;
+        display: block;
     }
 
     nav #menu-btn-cancel {

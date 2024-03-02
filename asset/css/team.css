@@ -107,6 +107,7 @@ main .event-list .event{
     background-color: #3131312a;
     border-radius: 10px;
     overflow: hidden;
+    margin-inline: 10px;
 }
 
 main .event-list .event .top{
@@ -185,6 +186,17 @@ main .event-list .event .bottom .volunteer h3{
     }
     main #member-list .member .link-icon{
         opacity: 1;
+    }
+
+    main .event-list .event .bottom{
+        flex-direction: column;
+    }
+    main .event-list .event .bottom .volunteer, main .event-list .event .bottom .coordinator{
+        width: 100%;
+    }
+    main .event-list .event .bottom .volunteer{
+        padding-left: 0;
+        margin-top: 20px;
     }
 }
 @media(max-width:550px){
