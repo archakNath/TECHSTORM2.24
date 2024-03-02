@@ -459,17 +459,18 @@ var params = Object.fromEntries(urlSearchParams.entries());
 var memberType = params['memberType'].replace(/\+/g, ' ');
 const heading = document.querySelector('main>h1');
 
-if(memberType == 'Faculty Co-Ordinators'){
+if (memberType == 'Faculty Co-Ordinators') {
     heading.textContent = 'Faculty Co-Ordinators List'
     setData(faculty);
-} else if(memberType == 'Co-ordinators'){
+} else if (memberType == 'Co-ordinators') {
     heading.textContent = 'Co-ordinators List'
     setData(coordinator);
-} else if(memberType == 'Volunteers'){
-        heading.textContent = 'Volunteers List'
-        setData(volunteers);
+} else if (memberType == 'Volunteers') {
+    heading.textContent = 'Volunteers List'
+    setData(volunteers);
 }
 
+var currentEvent = '';
 function setData(members) {
     const list = document.querySelector('.member-list');
     members.forEach(member => {
@@ -478,7 +479,15 @@ function setData(members) {
         const name = document.createElement('p');
         horizontal.setAttribute('class', 'horizontal');
 
-        eventName.textContent = member.event;
+        if (currentEvent != member.event) {
+            if (currentEvent != '') {
+                list.appendChild(document.createElement('hr'));
+            }
+            currentEvent = member.event;
+            eventName.textContent = member.event;
+        } else {
+            eventName.textContent = '';
+        }
         name.textContent = member.name;
 
         horizontal.appendChild(eventName);
