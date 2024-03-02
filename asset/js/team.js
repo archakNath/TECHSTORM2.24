@@ -163,7 +163,11 @@ var coreTeam = [
         "dep": "BCA",
         "year": "3rd",
         "contact": 9836381637,
+        "linkedin": "https://www.linkedin.com/in/srijani-das-b57485273/",
+        "background": "/asset/resource/image/member/core/member-bg/Srijani-Das.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Srijani-Das-removebg-preview.png",
         "team": "Discipline & Hospitality Management Team",
+        "email": "srijanidas@gmail.com"
     },
     {
         "number": 4,

@@ -40,7 +40,7 @@ main #description {
 main button {
     width: 100%;
     padding: 15px 20px;
-    cursor: not-allowed;
+    cursor: pointer;
     background-color: #313131;
     color: white;
     border-radius: 10px;
