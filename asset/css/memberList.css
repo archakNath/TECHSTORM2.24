@@ -1,0 +1,42 @@
+body{
+    background-image: url(/asset/resource/image/background/stary_bg.jpg);
+    background-size: contain;
+}
+
+main{
+    min-height: 100vh;
+    max-width: 700px;
+    margin-inline: auto;
+    padding-top: 100px;
+    padding-inline: 10px;
+}
+
+main>h1{
+    text-align: center;
+}
+
+.member-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.horizontal-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #31313194;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 30px;
+}
+
+.horizontal p:nth-child(2){
+    text-align: right;
+}

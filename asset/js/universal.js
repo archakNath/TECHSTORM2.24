@@ -105,3 +105,17 @@ document.addEventListener("DOMContentLoaded", function () {
         contentContainer.style.display = 'block';
     }, 2000); // Adjust the timeout value as needed, in milliseconds
 });
+
+// link to member list
+
+memberListLinks = document.querySelectorAll('.member-list-link');
+memberListLinks.forEach(link => {
+    link.onclick = () => {
+        if (link.textContent == 'Core members') {
+            window.location.href = '/pages/team.html';
+        } else {
+            var parameters = { 'memberType': link.textContent };
+            window.location.href = '/pages/memberList.html?' + new URLSearchParams(parameters).toString()
+        }
+    }
+});
