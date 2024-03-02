@@ -135,7 +135,8 @@ function appendList(categories) {
             localStorage.setItem('eventName', category.name);
             localStorage.setItem('eventImage', category.image);
             localStorage.setItem('eventDescription', category.description);
-            window.location.href = '/pages/rules.html'
+            var parameters = {'event':category.name};
+            window.location.href = '/pages/rules.html?'+new URLSearchParams(parameters).toString()
         }
     });
 
