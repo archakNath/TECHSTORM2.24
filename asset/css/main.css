@@ -56,8 +56,13 @@ main {
     position: sticky;
     padding-top: 100px;
     padding-inline: 30px;
-    display: flex;
     padding-bottom: 90px;
+}
+
+#page2 .content{
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
 }
 
 #page2 #page2-left {
@@ -77,8 +82,12 @@ main {
 }
 
 
+#page2 h2{
+    font-size: 32px;
+}
+
 #page2 h1 {
-    font-size: 40px;
+    font-size: 26px;
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.087);
 }
@@ -304,6 +313,13 @@ main {
 
 #page5 .gradient h1 {
     margin-bottom: 20px;
+}
+
+@media(max-width: 700px){
+    #page5 .scroll-item{
+        height: 30vh;
+        font-size: 10px;
+    }
 }
 
 #page6 {

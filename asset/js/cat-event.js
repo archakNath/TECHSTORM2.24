@@ -20,7 +20,7 @@ var events = [
         image: '/asset/resource/image/events-bg/app-mania.jpg'
     },
     {
-        name: 'Technical Writing',
+        name: 'Technical <br> Writing',
         category: 'Technicals',
         image: '/asset/resource/image/events-bg/technical-writing.jpg'
     },
@@ -65,12 +65,12 @@ var events = [
         image: '/asset/resource/image/events-bg/khet.jpeg'
     },
     {
-        name: 'Creative Canvas',
+        name: 'Creative <br> Canvas',
         category: 'Creative',
         image: '/asset/resource/image/events-bg/creative-canvas.png'
     },
     {
-        name: 'Passion with Reels',
+        name: 'Passion <br> with Reels',
         category: 'Creative',
         image: '/asset/resource/image/events-bg/reels.png'
     },
@@ -104,7 +104,7 @@ function appendList(categories) {
         content.setAttribute('class', 'content');
 
         background.src = category.image;
-        name.textContent = category.name;
+        name.innerHTML = category.name;
         presented.textContent = 'presented by';
         techstormName.textContent = 'TECHSTORM 2.24';
 
