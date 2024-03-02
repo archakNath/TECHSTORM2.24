@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
-    <title>TechStorm 2.24 | Gallery</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-    <link rel="stylesheet" href="/asset/css/universal.css">
-    <link rel="stylesheet" href="/asset/css/gallery.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/asset/resource/image/techstorm_favicon/favicon.ico" type="image/x-icon">
+  <title>TechStorm 2.24 | Gallery</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+  <link rel="stylesheet" href="/asset/css/universal.css">
+  <link rel="stylesheet" href="/asset/css/gallery.css">
 </head>
+
 <body>
   <nav>
     <div id="nav-part1">
-        <img src="/asset/resource/image/logo/techfest_logo.png" id="logo" alt="techstorm logo">
-        <h2>TECHSTORM 2.24</h2>
+      <img src="/asset/resource/image/logo/techfest_logo.png" id="logo" alt="techstorm logo">
+      <h2>TECHSTORM 2.24</h2>
     </div>
 
     <div id="nav-part2">
-        <h2 class="magnet-target home-page-link">home</h1>
+      <h2 class="magnet-target home-page-link">home</h1>
         <h2 class="magnet-target events-page-link">events</h2>
         <h2 class="magnet-target gallery-page-link">gallery</h2>
         <h2 class="magnet-target schedule-page-link">schedule</h2>
@@ -28,29 +30,35 @@
     </div>
 
     <div class="nav-list">
-        <div class="nav-list-upper">
-            <img src="/asset/resource/image/icon/cross-white.png" class="magnet-target" alt="" id="menu-btn-cancel">
+      <div class="nav-list-upper">
+        <img src="/asset/resource/image/icon/cross-white.png" class="magnet-target" alt="" id="menu-btn-cancel">
+      </div>
+      <div class="nav-list-lower">
+        <div class="nav-socials-list">
+          <p>Socials</p>
+          <li class="magnet-target youtube-social-link">youtube</li>
+          <li class="magnet-target instagram-social-link">instagram</li>
+          <li class="magnet-target facebook-social-link">facebook</li>
+          <li class="magnet-target linkedin-social-link">linkedin</li>
         </div>
-        <div class="nav-list-lower">
-            <div class="nav-socials-list">
-                <p>Socials</p>
-                <li class="magnet-target youtube-social-link">youtube</li>
-                <li class="magnet-target instagram-social-link">instagram</li>
-                <li class="magnet-target facebook-social-link">facebook</li>
-                <li class="magnet-target linkedin-social-link">linkedin</li>
-            </div>
-            <div class="nav-pages-list">
-                <p>Menu</p>
-                <h1 class="magnet-target home-page-link">home</h1>
-                <h1 class="magnet-target events-page-link">events</h1>
-                <h1 class="magnet-target gallery-page-link">gallery</h1>
-                <h1 class="magnet-target schedule-page-link">schedule</h1>
-                <h1 class="magnet-target team-page-link">team</h1>
-            </div>
+        <div class="nav-pages-list">
+          <p>Menu</p>
+          <h1 class="magnet-target home-page-link">home</h1>
+          <h1 class="magnet-target events-page-link">events</h1>
+          <h1 class="magnet-target gallery-page-link">gallery</h1>
+          <h1 class="magnet-target schedule-page-link">schedule</h1>
+          <h1 class="magnet-target team-page-link">team</h1>
         </div>
+      </div>
     </div>
-</nav>
-   <div id="main">
+  </nav>
+
+  <div class="loading-screen">
+    <div class="loading-spinner"></div>
+  </div>
+
+  
+  <div id="main">
     <div id="gallery">
       <div id="heading">
         <h1>Gallery</h1>
@@ -62,12 +70,12 @@
         <div class="line"></div>
         <div class="line"></div>
       </section>
-    
+
       <section>
         <div class="img">
-        <div class="img-about">
-          <p>great</p>
-        </div>
+          <div class="img-about">
+            <p>great</p>
+          </div>
         </div>
         <div class="img">
           <div class="img-about">
@@ -111,11 +119,11 @@
         </div>
       </section>
     </div>
-   </div>
+  </div>
 
 
   <!-- ------------------------lenis js for smooth scrolling------------------------ -->
-  <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script> 
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
 
   <!-- Locomotive JS  -->
   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
@@ -139,4 +147,5 @@
   <script src="/asset/js/universal.js"></script>
   <script src="/asset/js/gallery.js"></script>
 </body>
+
 </html>

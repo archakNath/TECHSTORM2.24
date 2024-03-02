@@ -2,9 +2,9 @@
 var tl = gsap.timeline();
 tl.from("nav #logo, nav #menu-btn, nav #nav-part2 h2", {
     y: -50,
-    duration:.2,
-    opacity:0,
-    stagger:.2
+    duration: .2,
+    opacity: 0,
+    stagger: .2
 })
 
 // hide nav-links
@@ -17,7 +17,7 @@ menuBtnCancel.onclick = () => {
     gsap.to(".nav-list", {
         x: document.querySelector('.nav-list').offsetWidth
     });
-    
+
 }
 menuBtn.onclick = () => {
     var navTL = gsap.timeline();
@@ -26,7 +26,7 @@ menuBtn.onclick = () => {
     })
 }
 
-function hrefLinks(){
+function hrefLinks() {
     // social links
     document.querySelectorAll('.youtube-social-link').forEach(link => {
         link.onclick = () => {
@@ -81,8 +81,8 @@ hrefLinks();
 
 // change nav background on scroll
 
-window.addEventListener('scroll', function (){
-    if(this.window.scrollY > 150){
+window.addEventListener('scroll', function () {
+    if (this.window.scrollY > 150) {
         this.document.querySelector('nav').style.backdropFilter = 'blur(10px)';
         this.document.querySelector('nav').style.backgroundColor = 'rgba(255, 255, 255, 0.025)';
     } else {
@@ -90,3 +90,18 @@ window.addEventListener('scroll', function (){
         this.document.querySelector('nav').style.backgroundColor = 'rgba(255, 255, 255, 0)';
     }
 })
+
+// loading screen
+document.addEventListener("DOMContentLoaded", function () {
+    // Hide the loading screen and show the content when the page is fully loaded
+    const loadingScreen = document.querySelector('.loading-screen');
+    const contentContainer = document.querySelector('.content-container');
+
+    setTimeout(function () {
+        loadingScreen.style.opacity = '0';
+        setTimeout(() => {
+            loadingScreen.style.display = 'none'
+        }, 200);
+        contentContainer.style.display = 'block';
+    }, 2000); // Adjust the timeout value as needed, in milliseconds
+});
