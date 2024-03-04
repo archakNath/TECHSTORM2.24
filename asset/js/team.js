@@ -6,7 +6,7 @@ var coreTeam = [
         "year": "3rd",
         "contact": 8777491866,
         "linkedin": "https://www.linkedin.com/in/sayon-das-aa21b3127",
-        "background": "/asset/resource/image/member/core/member-bg/Sayon-Das.jpg",
+        "background": "/asset/resource/image/member/core/member-bg/Sayon-Das.png",
         "picture": "/asset/resource/image/member/core/member-image/Sayon-Das-removebg-preview.png",
         "team": "Event Management Team",
         "email": "dassayon16@gmail.com"
