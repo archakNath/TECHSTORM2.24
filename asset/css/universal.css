@@ -139,6 +139,7 @@ nav #nav-part1 {
     gap: 10px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 nav #nav-part2 {

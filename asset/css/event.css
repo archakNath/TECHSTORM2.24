@@ -76,16 +76,16 @@ main>h1 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #313131a9;
+    background-color: #3131311c;
     padding: 10px;
     transition: all .2s;
 }
 
-.scroll-item:hover .gradient{
-    background-color: #3131317e;
+.scroll-item:hover .gradient {
+    background-color: #31313100;
 }
 
-.gradient .content{
+.gradient .content {
     width: 100%;
     height: 100%;
     display: flex;
@@ -94,19 +94,21 @@ main>h1 {
     flex-direction: column;
     border: 1px dashed gray;
     border-radius: 10px;
+    text-shadow: 0 0 10px black;
+    text-align: center;
 }
 
 .gradient h1 {
     margin-bottom: 20px;
 }
 
-@media(max-width:700px){
-    .scroll-item{
-        width: 43%;
+@media(max-width:700px) {
+    .scroll-item {
+        width: 44%;
         font-size: 10px;
     }
 
-    .scroll-item .gradient .content{
+    .scroll-item .gradient .content {
         text-align: center;
     }
 }

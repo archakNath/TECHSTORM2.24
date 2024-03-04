@@ -119,3 +119,13 @@ memberListLinks.forEach(link => {
         }
     }
 });
+
+// event link in footer
+
+var eventLinks = document.querySelectorAll('footer .event-link');
+eventLinks.forEach(link => {
+    link.onclick = () => {
+        localStorage.setItem('event', link.textContent);
+        window.location.href = '/pages/cat-event.html'
+    }
+});

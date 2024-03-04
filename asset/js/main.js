@@ -80,11 +80,11 @@ accordians.forEach(accordian => {
 var categories = [
     {
         name: 'Brain Teaser',
-        image: '/asset/resource/image/events-bg/brainTeaser.png'
+        image: '/asset/resource/image/events-bg/brainTeaser-min.png'
     },
     {
         name: 'Technicals',
-        image: '/asset/resource/image/events-bg/techhunt.jpeg'
+        image: '/asset/resource/image/events-bg/technicals-min.jpg'
     },
     {
         name: 'Rovers',
@@ -92,11 +92,11 @@ var categories = [
     },
     {
         name: 'Games',
-        image: '/asset/resource/image/events-bg/fifa.jpeg'
+        image: '/asset/resource/image/events-bg/games-min.png'
     },
     {
         name: 'Creative',
-        image: '/asset/resource/image/events-bg/creatives.png'
+        image: '/asset/resource/image/events-bg/creatives-min.png'
     }
 ]
 
@@ -141,3 +141,11 @@ categories.forEach(category => {
     }
 });
 
+// event scroller
+
+document.getElementById('event-right').onclick = () => {
+    document.querySelector('#page5 .scroll-container').scrollLeft = document.querySelector('#page5 .scroll-container').scrollWidth;
+}
+document.getElementById('event-left').onclick = () => {
+    document.querySelector('#page5 .scroll-container').scrollLeft = 0;
+}

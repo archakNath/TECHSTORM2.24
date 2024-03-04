@@ -5,7 +5,7 @@ var coreTeam = [
         "dep": "CSE",
         "year": "3rd",
         "contact": 8777491866,
-        "linkedin": "www.linkedin.com/in/sayon-das-aa21b3127",
+        "linkedin": "https://www.linkedin.com/in/sayon-das-aa21b3127",
         "background": "/asset/resource/image/member/core/member-bg/Sayon-Das.jpg",
         "picture": "/asset/resource/image/member/core/member-image/Sayon-Das-removebg-preview.png",
         "team": "Event Management Team",
@@ -104,12 +104,28 @@ var coreTeam = [
         "email": "swarnendusaha14@gmail.com"
     },
     {
+        "number": 18,
+        "name": "Arindam Dandapat",
+        "dep": "IT",
+        "year": "3rd ",
+        "contact": 9679956590,
+        "linkedin": "https://www.linkedin.com/in/arindam-dandapat-719688225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Arindam-Dandapat.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Arindam-Dandapat-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "arindamdandapat11@gmail.com"
+    },
+    {
         "number": 12,
         "name": "Arjun Chakraborty",
         "dep": "EE",
         "year": "3rd",
         "contact": 9836381637,
+        "linkedin": "https://www.linkedin.com/in/arjun-chakraborty",
+        "background": "/asset/resource/image/member/core/member-bg/Arjun-Chakraborty.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Arjun-Chakraborty-removebg-preview.png",
         "team": "PR and Sponsor Management Team",
+        "email": "arjunchakraborty730@gmail.com"
     },
     {
         "number": 7,
@@ -216,18 +232,6 @@ var coreTeam = [
         "picture": "/asset/resource/image/member/core/member-image/Sheetam-Coondoo-removebg-preview.png",
         "team": "Creative Management Team",
         "email": "sheetamcoondoo2003@gmail.com"
-    },
-    {
-        "number": 18,
-        "name": "Arindam Dandapat",
-        "dep": "IT",
-        "year": "3rd ",
-        "contact": 9679956590,
-        "linkedin": "https://www.linkedin.com/in/arindam-dandapat-719688225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "background": "/asset/resource/image/member/core/member-bg/Arindam-Dandapat.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Arindam-Dandapat-removebg-preview.png",
-        "team": "Creative Management Team",
-        "email": "arindamdandapat11@gmail.com"
     },
     {
         "number": 10,

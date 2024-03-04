@@ -37,52 +37,77 @@ main #description {
     padding: 10px;
 }
 
-main button {
+.btn {
     width: 100%;
-    padding: 15px 20px;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #313131;
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
     cursor: pointer;
-    background-color: #313131;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    transition: all .2s;
-    font-size: 15px;
 }
 
-main button:hover {
-    background-color: rgba(255, 255, 255, 0.699);
-    color: #313131;
+.btn:hover {
+    opacity: .95;
 }
 
-main .data-container{
+.btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+}
+
+main .data-container {
     margin-block: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    align-items: center;
 }
 
-main .box{
+main .box {
     width: 48%;
     padding: 20px;
     background-color: #313131;
     border-radius: 10px;
 }
 
-main .box h2{
+main .box h2 {
     margin-block: 10px;
 }
 
-main .box p{
+main .box p {
     color: gray;
 }
 
-main > h1{
+main>h1 {
     margin-block: 10px;
     color: gray;
 }
 
-main li{
+main li {
     /* list-style: none; */
     margin-bottom: 10px;
 }
