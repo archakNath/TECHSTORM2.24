@@ -36,6 +36,18 @@ var coreTeam = [
         "email": "sagnick.routh17@gmail.com"
     },
     {
+        "number": 5,
+        "name": "Aman Kumar Tiwari",
+        "dep": "CSE",
+        "year": "3rd",
+        "contact": 9334121190,
+        "linkedin": "https://www.linkedin.com/in/aman-kumar-tiwari-602743227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Aman-Kumar-Tiwari.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Aman-Kumar-Tiwari-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "tiwarianush1717@gmail.com"
+    },
+    {
         "number": 2,
         "name": "Rishav Thakkar",
         "dep": "CSE",
@@ -47,16 +59,15 @@ var coreTeam = [
         "email": "rishavthakkar@gmail.com"
     },
     {
-        "number": 5,
-        "name": "Aman Kumar Tiwari",
-        "dep": "CSE",
+        "number": 15,
+        "name": "Shreya Gupta",
+        "dep": "IT",
         "year": "3rd",
-        "contact": 9334121190,
-        "linkedin": "https://www.linkedin.com/in/aman-kumar-tiwari-602743227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "background": "/asset/resource/image/member/core/member-bg/Aman-Kumar-Tiwari.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Aman-Kumar-Tiwari-removebg-preview.png",
+        "contact": 9123389663,
+        "background": "/asset/resource/image/member/core/member-bg/Shreya-Gupta.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Shreya-Gupta-removebg-preview.png",
         "team": "PR and Sponsor Management Team",
-        "email": "tiwarianush1717@gmail.com"
+        "email": "guptashreya627@gmail.com"
     },
     {
         "number": 8,
@@ -71,37 +82,16 @@ var coreTeam = [
         "email": "debparnaghatak30@gmail.com"
     },
     {
-        "number": 15,
-        "name": "Shreya Gupta",
-        "dep": "IT",
+        "number": 12,
+        "name": "Subhajit Sarkar",
+        "dep": "EE",
         "year": "3rd",
-        "contact": 9123389663,
-        "background": "/asset/resource/image/member/core/member-bg/Shreya-Gupta.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Shreya-Gupta-removebg-preview.png",
+        "contact": 9836381637,
         "team": "PR and Sponsor Management Team",
-        "email": "guptashreya627@gmail.com"
-    },
-    {
-        "number": 19,
-        "name": "Sauvick Pramanik",
-        "dep": "MCA",
-        "year": "1st",
-        "contact": 6291420641,
-        "background": "/asset/resource/image/member/core/member-bg/Sauvick-Pramanick.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Sauvick-Pramanik-removebg-preview.png",
+        "background": "/asset/resource/image/member/core/member-bg/Subhajit.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Subhajit-removebg-preview.png",
         "team": "PR and Sponsor Management Team",
-        "email": "sauvickpramanick@gmail.com"
-    },
-    {
-        "number": 20,
-        "name": "Swarnendu Saha",
-        "dep": "MCA",
-        "year": "1st",
-        "contact": 8582833783,
-        "background": "/asset/resource/image/member/core/member-bg/Swarnendu-Saha.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Swarnendu-Saha-removebg-preview.png",
-        "team": "PR and Sponsor Management Team",
-        "email": "swarnendusaha14@gmail.com"
+        "email": "arjunchakraborty730@gmail.com"
     },
     {
         "number": 18,
@@ -116,12 +106,26 @@ var coreTeam = [
         "email": "arindamdandapat11@gmail.com"
     },
     {
-        "number": 12,
-        "name": "Subhajit Sarkar",
-        "dep": "EE",
-        "year": "3rd",
-        "contact": 9836381637,
+        "number": 20,
+        "name": "Swarnendu Saha",
+        "dep": "MCA",
+        "year": "1st",
+        "contact": 8582833783,
+        "background": "/asset/resource/image/member/core/member-bg/Swarnendu-Saha.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Swarnendu-Saha-removebg-preview.png",
         "team": "PR and Sponsor Management Team",
+        "email": "swarnendusaha14@gmail.com"
+    },
+    {
+        "number": 19,
+        "name": "Sauvick Pramanik",
+        "dep": "MCA",
+        "year": "1st",
+        "contact": 6291420641,
+        "background": "/asset/resource/image/member/core/member-bg/Sauvick-Pramanick.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Sauvick-Pramanik-removebg-preview.png",
+        "team": "PR and Sponsor Management Team",
+        "email": "sauvickpramanick@gmail.com"
     },
     {
         "number": 12,
@@ -134,6 +138,18 @@ var coreTeam = [
         "picture": "/asset/resource/image/member/core/member-image/Arjun-Chakraborty-removebg-preview.png",
         "team": "PR and Sponsor Management Team",
         "email": "arjunchakraborty730@gmail.com"
+    },
+    {
+        "number": 13,
+        "name": "Hena Mahata",
+        "dep": "EE",
+        "year": "3rd",
+        "contact": 6294014187,
+        "linkedin": "https://www.linkedin.com/in/hena-mahata-55063a1a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "background": "/asset/resource/image/member/core/member-bg/Hena-Mahata.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Hena-Mahata-removebg-preview.png",
+        "team": "Discipline & Hospitality Management Team",
+        "email": "henamahata@gmail.com"
     },
     {
         "number": 7,
@@ -158,18 +174,6 @@ var coreTeam = [
         "email": "arindampaul1001@gmail.com"
     },
     {
-        "number": 13,
-        "name": "Hena Mahata",
-        "dep": "EE",
-        "year": "3rd",
-        "contact": 6294014187,
-        "linkedin": "https://www.linkedin.com/in/hena-mahata-55063a1a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "background": "/asset/resource/image/member/core/member-bg/Hena-Mahata.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Hena-Mahata-removebg-preview.png",
-        "team": "Discipline & Hospitality Management Team",
-        "email": "henamahata@gmail.com"
-    },
-    {
         "number": 16,
         "name": "Anwesha Saha",
         "dep": "IT",
@@ -192,6 +196,18 @@ var coreTeam = [
         "picture": "/asset/resource/image/member/core/member-image/Srijani-Das-removebg-preview.png",
         "team": "Discipline & Hospitality Management Team",
         "email": "srijanidas@gmail.com"
+    },
+    {
+        "number": 17,
+        "name": "Sheetam Coondoo",
+        "dep": "IT",
+        "year": "3rd ",
+        "contact": 9051634001,
+        "linkedin": "https://www.linkedin.com/in/sheetam-coondoo-6b612b21b/",
+        "background": "/asset/resource/image/member/core/member-bg/Sheetam-Coondoo.jpg",
+        "picture": "/asset/resource/image/member/core/member-image/Sheetam-Coondoo-removebg-preview.png",
+        "team": "Creative Management Team",
+        "email": "sheetamcoondoo2003@gmail.com"
     },
     {
         "number": 4,
@@ -228,18 +244,6 @@ var coreTeam = [
         "picture": "/asset/resource/image/member/core/member-image/Swarnali-Kundu-removebg-preview.png",
         "team": "Creative Management Team",
         "email": "swarnali.kundu1974@gmail.com"
-    },
-    {
-        "number": 17,
-        "name": "Sheetam Coondoo",
-        "dep": "IT",
-        "year": "3rd ",
-        "contact": 9051634001,
-        "linkedin": "https://www.linkedin.com/in/sheetam-coondoo-6b612b21b/",
-        "background": "/asset/resource/image/member/core/member-bg/Sheetam-Coondoo.jpg",
-        "picture": "/asset/resource/image/member/core/member-image/Sheetam-Coondoo-removebg-preview.png",
-        "team": "Creative Management Team",
-        "email": "sheetamcoondoo2003@gmail.com"
     },
     {
         "number": 10,
@@ -291,7 +295,7 @@ coreTeam.forEach(member => {
     if (member.linkedin != null) {
         gradient.appendChild(linkArrow);
         indiMember.onclick = () => {
-            window.location.href = member.linkedin;
+            window.open(member.linkedin, '_blank');
         }
     }
 
