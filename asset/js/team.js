@@ -117,6 +117,14 @@ var coreTeam = [
     },
     {
         "number": 12,
+        "name": "Subhajit Sarkar",
+        "dep": "EE",
+        "year": "3rd",
+        "contact": 9836381637,
+        "team": "PR and Sponsor Management Team",
+    },
+    {
+        "number": 12,
         "name": "Arjun Chakraborty",
         "dep": "EE",
         "year": "3rd",
@@ -244,14 +252,6 @@ var coreTeam = [
         "picture": "/asset/resource/image/member/core/member-image/Priyanshu-Mandal-removebg-preview.png",
         "team": "Management",
         "email": "priyanshumandal.msd@gmail.com"
-    },
-    {
-        "number": 12,
-        "name": "Subhajit Sarkar",
-        "dep": "EE",
-        "year": "3rd",
-        "contact": 9836381637,
-        "team": "Management",
     },
 ]
 

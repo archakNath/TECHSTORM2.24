@@ -99,6 +99,14 @@
     font-family: 'Soliden-Regular';
     src: local('Soliden-Regular'), url('/asset/font/soliden_regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Cinzel';
+    src: local('Cinzel-Regular'), url('/asset/font/Cinzel-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Neon';
+    src: local('Neon-Regular'), url('/asset/font/neon.ttf') format('truetype');
+}
 
 * {
     margin: 0;

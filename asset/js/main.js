@@ -88,7 +88,7 @@ var categories = [
     },
     {
         name: 'Rovers',
-        image: '/asset/resource/image/events-bg/roterrain.jpeg'
+        image: '/asset/resource/image/events-bg/Rovers.png'
     },
     {
         name: 'Games',
