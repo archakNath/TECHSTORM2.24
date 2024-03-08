@@ -220,16 +220,16 @@ var events = [
         "name": "Creative <br> Canvas",
         "category": "Creative",
         "image": "\/asset\/resource\/image\/events-bg\/creativeCanvas-min.png",
-        "description": "Coming Soon",
+        "description": "Step into the realm of boundless imagination at 'Creative Canvas,' a cutting-edge graphic design event where innovation meets artistry. Unleash your creativity on a digital tapestry, exploring the latest design trends and techniques. Compete alongside fellow designers in an immersive experience that transcends traditional boundaries, redefining the art of graphic design. This is your invitation to paint your ideas on the limitless 'Creative Canvas' and elevate your design journey to unprecedented heights.",
         "prize": "EXCITING PRIZES",
-        "insideFees": "Rs",
-        "outsideFees": "Rs",
+        "insideFees": "Rs 80",
+        "outsideFees": "Rs 100",
         "onSpot": "Coming Soon",
         "prelimsDate": "COMING SOON",
         "finalDate": "COMING SOON",
         "Contact1": "Sheetam Kundu(IT) 9051635001",
         "Contact2": "Ipsita Mitra(CSE) 6290410210",
-        "rules": "Creative <br> Canvas"
+        "rules": "<h1>Rules and Regulations</h1> <p>•	A maximum of 2 members per team will be allowed.</p> <p>•	The competition will be held in 2 rounds – Prelims & Final Round</p> <h2>Prelims</h2> <p> •	Prelims will be held before 3rd April.</p> <p> •	 Submission: -</p> <p> 1.	A 15 mins screen recorded video of you designing.</p> <p> 2.	Your design as jpg file</p> <p> 3.	The above media should be uploaded to your google drive in a folder and its link should be submitted through the google form provided.</p> <p> •	Elimination Criteria: - </p> <p> 1.	If the access of the link is not available to us the participant/group will be eliminated</p> <p> 2.	If video is too long, then the participant/group will be eliminated.</p> <p> 3.	Show your working skills in the video. If you have used any unfair means/the video isn’t convincing enough, then the participant/group will be eliminated.</p> <h2>Final Round</h2> <p> •	Maximum of 20 groups will be selected who must be present in person at the campus (either both or any 1 member shall be present).</p> <p> •	Duration: - </p> <p> •	Photoshop/Online Designing Platforms will be provided by the Campus Computers (Participants can bring their own computer peripherals).</p> <p> •	 For any Other Software/Designing Platforms participants should bring their own device (Participants CANNOT use their own device for using Photoshop/Online Designing Platforms).</p> <p> •	Submission: -</p> <p> <strong>Photoshop/Online Designing Platforms Users</strong></p> <p> 1.	Make a folder with your group name at your allotted computer. There save the following: -</p> <p> The photoshop editable file (.psd, etc) for Photoshop Users</p> <p> OR</p> <p> The link of the online workspace saved in a notepad for Online Designing Platform Users</p> <p> 2.	The design .jpeg/.jpg.</p> <p> 3.	Screen Recording of your screen.</p> <p> <strong>Other Software/Designing Platforms Users</strong></p> <p> 1.	Make a folder with your group name at your allotted computer. There upload and save the following: -</p> <p> 2.	The design .jpeg/.jpg.</p> <p> 3.	Screen Recording of your screen.</p> <p> <strong># Bring your own Data Transfer Cable </strong></p> <p> •	Elimination Criteria: -</p> <p> 1.	If folder name is anything except Group/team name, then the participant/group will be eliminated.</p> <p> 2.	If Plagiarism is found, then the participant/group will be eliminated.</p> <p> 3.	If anyone uses their Personal Device for Photoshop/Online Designing Platforms, then the participant/group will be eliminated.</p> "
     },
     // passion with reels
     {
