@@ -148,6 +148,10 @@ var coordinator = [
     },
     {
         "event": "CODE BEE",
+        "name": "Shuvechha Nandi"
+    },
+    {
+        "event": "CODE BEE",
         "name": "Agradip Banik"
     },
     {

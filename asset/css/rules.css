@@ -112,7 +112,11 @@ main li {
     /* list-style: none; */
     margin-bottom: 10px;
 }
-
+#rules-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 footer {
     margin-top: 30px;
 }
