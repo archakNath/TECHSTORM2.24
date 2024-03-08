@@ -128,7 +128,7 @@ var events = [
         "name": "Ro Terrance",
         "category": "Rovers",
         "image": "\/asset\/resource\/image\/events-bg\/roTerrance.png",
-        "description": "Ro-terrance it's a event where your bot  has to cross different kinds of terrain and hurdles to reach the final destination. The bot has to be manually controlled and can be both wired and wireless.",
+        "description": "Ro-terrance it's an event where your bot  has to cross different kinds of terrain and hurdles to reach the final destination. The bot has to be manually controlled and can be both wired and wireless.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 300",
         "onSpot": "AVAILABLE",
