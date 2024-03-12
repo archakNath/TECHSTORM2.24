@@ -35,16 +35,16 @@ var events = [
         "name": "Code Bee",
         "category": "Technicals",
         "image": "\/asset\/resource\/image\/events-bg\/codeBee-min.png",
-        "description": "Coming Soon",
+        "description": " Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. Code-Bee is an offline coding event which tests your logical, mathematical and basic programming skills. Plunge in to unravel the deep Coding secrets and swim up to the shore with the best algorithm.",
         "prize": "EXCITING PRIZES",
-        "insideFees": "Rs",
-        "outsideFees": "Rs",
+        "insideFees": "Rs 80",
+        "outsideFees": "Rs 100",
         "onSpot": "NOT AVAILABLE",
         "prelimsDate": "COMING SOON",
         "finalDate": "COMING SOON",
         "Contact1": "Subrata Bhuin(CSE) 8918210742",
         "Contact2": "Agradip Banik(IT) 6289933166",
-        "rules": "Code Bee"
+        "rules": "<h1>Rules and Regulations</h1> <p> •	Team Size- 1-2</p> <p> •	If one participant is from college and another from outside, then the group will be considered an outside group*</p> <p> •	Number of rounds - 3</p> <p> •	All rounds are offline and will be held on the campus of BPPIMT. (If any changes are made, will be informed via mail)</p> <p> •	A group may comprise members from different streams and/or different years and also different colleges. Cross-college teams are allowed</p> <p> •	No paper carried by the participants will be allowed during the whole contest. Paper will be provided.</p> <p> •	In every Round, every participant will carry their own laptop. Note:- PROBLEMS WITH LAPTOP: No internet access restriction and If not charged, the lab will be used.</p> <p> •	No electronic devices will be allowed except laptops (fully charged).</p> <p> •	In case of any disputes or unfair means, the decision of the organizers shall be binding.</p> <p> •	Only those players who clear the previous round will ascend to the next round.</p> <p> •	The coding questions will be required to be solved either with Python, C,C++ or java.</p> <p> •	Plagiarism is strictly prohibited.</p>  <h1>DETAILED DESCRIPTION OF 3 ROUNDS </h1> <h2>1.	Preliminary (Creative Brains)</h2> <p>Majorly a MCQ (Multiple Choice Questions) round along with output guessing where students will be asked several sorts of questions based on logical thinking, puzzle solving and basics of programming languages, pseudocode ( pseudocode must be in C ) etc. For example 30 questions in 45 minutes.</p> <h2>Round 2 (Burst-of-Time):-</h2> <p>It will depend more upon the time taken by each candidate to solve any problem. For example, a person needs to solve 11 coding questions in 1 hrs and the question standard will be very easy to slightly difficult. The level of questions will be easy to mid.</p> <h2>Advance Round (Act Manager):-</h2> <p>It will be a tough round containing medium to difficult questions. It will contain 5 Coding questions. The time duration will be approx 2 hrs.</p>"
     },
     // app mania
     {

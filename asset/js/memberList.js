@@ -331,7 +331,7 @@ var volunteers = [
     },
     {
         "event": "TECHNICAL WRITING WITH POSTER PRESENTATION",
-        "name": "Ambapalai Datta (IT)"
+        "name": "Ambapali Datta (IT)"
     },
     {
         "event": "TECHNICAL WRITING WITH POSTER PRESENTATION",
