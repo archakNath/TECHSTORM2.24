@@ -120,11 +120,11 @@ var faculty = [
         "name": "Mr. Ranjit Kumar Paul"
     },
     {
-        "event": "AQUA - RUSH",
+        "event": "AQUA RACE",
         "name": "Dr. Binoy Krishna Biswas"
     },
     {
-        "event": "AQUA - RUSH",
+        "event": "AQUA RACE",
         "name": "Mr. Subhasish Das"
     },
     {
@@ -247,11 +247,11 @@ var coordinator = [
         "name": "Priyanshu Mandal"
     },
     {
-        "event": "AQUA - RUSH",
+        "event": "AQUA RACE",
         "name": "Sayan Patra"
     },
     {
-        "event": "AQUA - RUSH",
+        "event": "AQUA RACE",
         "name": "Mouboni Mukherjee"
     },
     {
@@ -417,11 +417,11 @@ var volunteers = [
         "name": "Bappa Patra(EE 3)"
     },
     {
-        "event": "AQUA - RUSH",
+        "event": "AQUA RACE",
         "name": "Koushambha Das (IT)"
     },
     {
-        "event": "AQUA - RUSH",
+        "event": "AQUA RACE",
         "name": "Ankit Narayan Prasad (CSE 3)"
     },
     {
