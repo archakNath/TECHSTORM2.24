@@ -93,6 +93,7 @@ main .box {
     padding: 20px;
     background-color: #313131;
     border-radius: 10px;
+    height: 100%;
 }
 
 main .box h2 {
