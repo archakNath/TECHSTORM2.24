@@ -181,7 +181,7 @@ var events = [
     {
         "name": "Ro Soccer",
         "category": "Rovers",
-        "image": "\/asset\/resource\/image\/events-bg\/rosoccer.jpg",
+        "image": "\/asset\/resource\/image\/events-bg\/roSoccer_min.png",
         "description": "Participants create bots to play the game of football. Team to score the most wins",
         "register": "https:\/\/docs.google.com\/spreadsheets\/d\/1lo8OtMWyOG4hbq60-CCCC1wTCkMT6rV98Q-wDbl2uEs\/edit?resourcekey#gid=1591678481",
         "prize": "EXCITING PRIZES",
