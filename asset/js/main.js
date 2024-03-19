@@ -80,7 +80,7 @@ accordians.forEach(accordian => {
 var categories = [
     {
         name: 'Brain Teaser',
-        image: '/asset/resource/image/events-bg/brainTeaser-min.png'
+        image: '/asset/resource/image/events-bg/brainTeaser-min.jpg'
     },
     {
         name: 'Technicals',
@@ -88,15 +88,15 @@ var categories = [
     },
     {
         name: 'Rovers',
-        image: '/asset/resource/image/events-bg/Rovers.png'
+        image: '/asset/resource/image/events-bg/Rovers.jpg'
     },
     {
         name: 'Games',
-        image: '/asset/resource/image/events-bg/games-min.png'
+        image: '/asset/resource/image/events-bg/games-min.jpg'
     },
     {
         name: 'Creative',
-        image: '/asset/resource/image/events-bg/creatives-min.png'
+        image: '/asset/resource/image/events-bg/creatives-min.jpg'
     }
 ]
 
