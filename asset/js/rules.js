@@ -3,7 +3,7 @@ var events = [
     {
         "name": "Tech Hunt",
         "category": "Brain Teaser",
-        "image": "\/asset\/resource\/image\/events-bg\/techHunt-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/techHunt-min.jpg",
         "description": "An exciting Decode and Explore event, filled with technical challenges, hidden codes, exciting puzzles and navigate through hidden gems and uncover the treasures that await.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 50",
@@ -19,7 +19,7 @@ var events = [
     {
         "name": "Omegatrix",
         "category": "Brain Teaser",
-        "image": "\/asset\/resource\/image\/events-bg\/omegatrix-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/omegatrix-min.jpg",
         "description": "An exhilarating mathematics event designed to stimulate your analytical thinking and numerical prowess! Whether you're a seasoned mathlete or just love solving mathematical puzzles, this event is tailor-made for enthusiasts of all levels.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 50",
@@ -40,7 +40,7 @@ var events = [
     {
         "name": "Code Bee",
         "category": "Technicals",
-        "image": "\/asset\/resource\/image\/events-bg\/codeBee-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/codeBee-min.jpg",
         "description": " Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. Code-Bee is an offline coding event which tests your logical, mathematical and basic programming skills. Plunge in to unravel the deep Coding secrets and swim up to the shore with the best algorithm.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 80",
@@ -79,7 +79,7 @@ var events = [
     {
         "name": "Technical <br> Writing",
         "category": "Technicals",
-        "image": "\/asset\/resource\/image\/events-bg\/techWrite-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/techWrite-min.jpg",
         "description": "Welcome to the Technical Writing and Poster Presentation Event, featuring two exciting rounds: Prelims and Final. Teams of up to two members can participate in each group. In the Prelims, participants are tasked with submitting a technical writing piece on a specified topic chosen from the provided list, adhering to the preferred IEEE format. Shortlisted participants will advance to the Final round, where they will bring their chosen topic to life through a visually engaging poster presentation on the day of the event.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 50",
@@ -113,7 +113,7 @@ var events = [
     {
         "name": "Aqua Race",
         "category": "Rovers",
-        "image": "\/asset\/resource\/image\/events-bg\/aquaRace.png",
+        "image": "\/asset\/resource\/image\/events-bg\/aquaRace.jpg",
         "description": "Aqua race is an event where the participants have to build a manually controlled boat that has to sail through the obstacles in the arena and complete the race track in minimum time wins. The boat should compulsorily be wireless and powered by batteries.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 200",
@@ -133,7 +133,7 @@ var events = [
     {
         "name": "Ro Navigator",
         "category": "Rovers",
-        "image": "\/asset\/resource\/image\/events-bg\/roNavigator.png",
+        "image": "\/asset\/resource\/image\/events-bg\/roNavigator.jpg",
         "description": "Ro-navigator is an exhilarating event that brings together top-notch line-following robots in a captivating competition. These robots showcase their precision, speed, and strategic abilities as they navigate through complex mazes. Spectators are treated to an exciting display of robotics prowess as these sleek machines race towards victory.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 300",
@@ -153,7 +153,7 @@ var events = [
     {
         "name": "Ro Terrance",
         "category": "Rovers",
-        "image": "\/asset\/resource\/image\/events-bg\/roTerrance.png",
+        "image": "\/asset\/resource\/image\/events-bg\/roTerrance.jpg",
         "description": "Ro-terrance it's an event where your bot  has to cross different kinds of terrain and hurdles to reach the final destination. The bot has to be manually controlled and can be both wired and wireless.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 300",
@@ -173,7 +173,7 @@ var events = [
     {
         "name": "Ro Combat",
         "category": "Rovers",
-        "image": "\/asset\/resource\/image\/events-bg\/roCombat.png",
+        "image": "\/asset\/resource\/image\/events-bg\/roCombat.jpg",
         "description": "Ro -combat is a event where two huge metal mass clashes together till an ultimatum. Bots are all manually operated and must be controlled wirelessly no wired bot will be allowed",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 400(light)/ Rs 600(heavy)",
@@ -190,7 +190,7 @@ var events = [
     {
         "name": "Ro Soccer",
         "category": "Rovers",
-        "image": "\/asset\/resource\/image\/events-bg\/roSoccer_min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/roSoccer_min.jpg",
         "description": "Prepare for an epic clash of mechanical titans! In our RO Soccer event, two mighty robots go head-to-head in a thrilling 1v1 showdown. Crafted and programmed by skilled teams, these robots are ready to showcase their speed, agility, and tactical prowess on the field.Aiming to outmaneuver their opponent and score the decisive goal. Don't miss out on the excitement as these robotic athletes face off in a duel of skill and strategy!\"",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 300",
@@ -210,7 +210,7 @@ var events = [
     {
         "name": "Fifa(Console)",
         "category": "Games",
-        "image": "\/asset\/resource\/image\/events-bg\/fifa-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/fifa-min.jpg",
         "description": "The FIFA game played on consoles offers players the immersive experience of managing and competing with their favorite football teams virtually. With realistic graphics, fluid gameplay, and authentic commentary, players can enjoy matches solo or with friends in multiplayer mode. The event will provide an engaging platform for football enthusiasts to experience the thrill of the sport.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 80",
@@ -231,7 +231,7 @@ var events = [
     {
         "name": "PES(Mobile)",
         "category": "Games",
-        "image": "\/asset\/resource\/image\/events-bg\/pes-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/pes-min.jpg",
         "description": "eFootball Mobile is a popular football simulation game designed for mobile devices. Developed by Konami, it offers players the opportunity to experience the excitement of competitive football matches on their smartphones or tablets. Players can build and manage their own teams, compete in various leagues and tournaments, and engage in multiplayer matches against friends or other online players. The game features realistic graphics, intuitive controls, and a wide range of teams and players from around the world, providing an immersive football gaming experience on the go.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 50",
@@ -252,7 +252,7 @@ var events = [
     {
         "name": "Khet",
         "category": "Games",
-        "image": "\/asset\/resource\/image\/events-bg\/khet-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/khet-min.jpg",
         "description": "The Laser Game KHET 2.0: Mind-blowing laser fun for players ages 9-99. Using simple rules that can be learned in minutes, players alternate turns moving Egyptian-themed mirrored Pieces, after which they fire their REAL (eye-safe) laser with the goal of blasting their opponents PHARAOH to win the game! BASIC GEOMETRICAL CONCEPT IS THE KEY FACTOR IN THIS GAME.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 50",
@@ -269,7 +269,7 @@ var events = [
     {
         "name": "Creative <br> Canvas",
         "category": "Creative",
-        "image": "\/asset\/resource\/image\/events-bg\/creativeCanvas-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/creativeCanvas-min.jpg",
         "description": "Step into the realm of boundless imagination at 'Creative Canvas,' a cutting-edge graphic design event where innovation meets artistry. Unleash your creativity on a digital tapestry, exploring the latest design trends and techniques. Compete alongside fellow designers in an immersive experience that transcends traditional boundaries, redefining the art of graphic design. This is your invitation to paint your ideas on the limitless 'Creative Canvas' and elevate your design journey to unprecedented heights.",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 60",
@@ -286,7 +286,7 @@ var events = [
     {
         "name": "Passion <br> with Reels",
         "category": "Creative",
-        "image": "\/asset\/resource\/image\/events-bg\/passionWithReels-min.png",
+        "image": "\/asset\/resource\/image\/events-bg\/passionWithReels-min.jpg",
         "description": "Are you a passionate storyteller who wants to showcase your creative storytelling skills? Join us for an exhilarating short movie making competition, 'Passion with Reels,' where the magic of cinema comes alive through captivating and inspiring short films.This event promises a platform for participants to bring their cinematic vision to life. Let your passion for filmmaking ignite and shine through!",
         "prize": "EXCITING PRIZES",
         "insideFees": "Rs 150",
