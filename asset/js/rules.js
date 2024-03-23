@@ -85,7 +85,7 @@ var events = [
         "insideFees": "Rs 50",
         "onSpot": "NOT AVAILABLE",
         "register": "https://forms.gle/ZLMzHzGNqXSbjCqq7",
-        "prelimsDate": "BY 23RD MARCH",
+        "prelimsDate": "BY 31ST MARCH",
         "prelimsLocation": "ONLINE SUBMISSION",
         "finalDate": "4TH APRIL",
         "finalLocation": "BPPIMT CAMPUS",
