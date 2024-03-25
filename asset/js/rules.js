@@ -136,7 +136,7 @@ var events = [
         "image": "\/asset\/resource\/image\/events-bg\/roNavigator.jpg",
         "description": "Ro-navigator is an exhilarating event that brings together top-notch line-following robots in a captivating competition. These robots showcase their precision, speed, and strategic abilities as they navigate through complex mazes. Spectators are treated to an exciting display of robotics prowess as these sleek machines race towards victory.",
         "prize": "EXCITING PRIZES",
-        "insideFees": "Rs 250",
+        "insideFees": "Rs 300",
         "register": "https://forms.gle/vbQnXQRQffcVkAgw6",
         "onSpot": "AVAILABLE",
         "prelimsDate": "3RD APRIL",
