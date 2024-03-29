@@ -44,6 +44,9 @@ main>h2 {
 }
 
 .horizontal p:nth-child(2) {
+    text-align: center;
+}
+.horizontal p:nth-child(3) {
     text-align: right;
 }
 
