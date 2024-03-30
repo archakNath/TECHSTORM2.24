@@ -187,7 +187,7 @@ var coreTeam = [
     },
     {
         "number": 12,
-        "name": "Srinjani Das",
+        "name": "Srijani Das",
         "dep": "BCA",
         "year": "3rd",
         "contact": 9836381637,
