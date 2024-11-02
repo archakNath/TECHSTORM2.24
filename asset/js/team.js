@@ -257,6 +257,18 @@ var coreTeam = [
         "team": "Management",
         "email": "priyanshumandal.msd@gmail.com"
     },
+    {
+        "number": 10,
+        "name": "Archak Nath",
+        "dep": "IT",
+        "year": "2nd",
+        "contact": 9330397140,
+        "linkedin": "https://www.linkedin.com/in/archak-nath-a682aa247/",
+        "background": "/asset/resource/image/member/core/member-bg/archak.png",
+        "picture": "/asset/resource/image/member/core/member-image/archak-removebg-preview.png",
+        "team": "Web Developer",
+        "email": "priyanshumandal.msd@gmail.com"
+    },
 ]
 
 const list = document.getElementById('member-list');
